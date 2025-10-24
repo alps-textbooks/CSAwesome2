@@ -318,7 +318,7 @@ for (int i = 0; i &lt; 5; i++)
         </p>
       </statement>
 
-      <program interactive="activecode" language="java" datafile="turtleClasses.jar,turtleClasses2.jar">
+      <program interactive="activecode" language="java" datafile="turtleClasses2.jar,turtleClasses.jar">
         <code>
 import java.awt.*;
 import java.util.*;
