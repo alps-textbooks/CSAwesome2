@@ -91,7 +91,7 @@ public class MyClass
       button to run the modified code.
     </p>
 
-    <exercise label="printName">
+    <activity label="printName">
       <statement>
         <p>
           Run this code to see the output below it. Then change the code to
@@ -131,7 +131,7 @@ public class RunestoneTests extends CodeTestHelper
 }
         </tests>
       </program>
-    </exercise>
+    </activity>
   </subsection>
 
   <subsection>
@@ -170,7 +170,7 @@ public class RunestoneTests extends CodeTestHelper
       are capitalized.
     </p>
 
-    <exercise label="mp-main-method-order-1" adaptive="yes">
+    <activity label="mp-main-method-order-1" adaptive="yes">
       <statement>
         <p>
           Drag or click on the blocks you need to move them from the top section
@@ -200,9 +200,9 @@ public class RunestoneTests extends CodeTestHelper
           <c>public Static</c>
         </block>
       </blocks>
-    </exercise>
+    </activity>
 
-    <exercise label="mp-main-method-order-2" adaptive="yes">
+    <activity label="mp-main-method-order-2" adaptive="yes">
       <statement>
         <p>
           Drag or click on the blocks you need to move them from the top section
@@ -244,9 +244,9 @@ public class RunestoneTests extends CodeTestHelper
           <c>Static</c>
         </block>
       </blocks>
-    </exercise>
+    </activity>
 
-    <exercise label="mp-main-method-order-3" adaptive="yes">
+    <activity label="mp-main-method-order-3" adaptive="yes">
       <statement>
         <p>
           Drag or click on the blocks you need to move them from the top section
@@ -296,7 +296,7 @@ public class RunestoneTests extends CodeTestHelper
           <c>()</c>
         </block>
       </blocks>
-    </exercise>
+    </activity>
 
     <p>
       Lines in a Java program that express a complete action such as printing
@@ -307,12 +307,11 @@ public class RunestoneTests extends CodeTestHelper
       will not be penalized on the exam if you forget a needed semicolon, but
       the Java compiler is not so lenient; your program won’t compile without
       it. Note also that not <em>every</em> line ends with a semicolon; if the
-      line starts a construct like an <title_reference>if</title_reference>
-      statement, there is no semicolon before the opening <c>{</c> nor one after
-      the closing <c>}</c>.
+      line starts a construct like an <c>if</c> statement, there is no semicolon
+      before the opening <c>{</c> nor one after the closing <c>}</c>.
     </p>
 
-    <exercise label="mp-print-order-1" adaptive="yes">
+    <activity label="mp-print-order-1" adaptive="yes">
       <statement>
         <p>
           Drag or click on the blocks you need to move them from the top section
@@ -358,9 +357,9 @@ public class RunestoneTests extends CodeTestHelper
           <c>system</c>
         </block>
       </blocks>
-    </exercise>
+    </activity>
 
-    <exercise label="mp-print-order-2" adaptive="yes">
+    <activity label="mp-print-order-2" adaptive="yes">
       <statement>
         <p>
           Drag or click on the blocks you need to move them from the top section
@@ -406,7 +405,7 @@ public class RunestoneTests extends CodeTestHelper
           <c>Out</c>
         </block>
       </blocks>
-    </exercise>
+    </activity>
   </subsection>
 
   <subsection>
@@ -429,7 +428,6 @@ public class RunestoneTests extends CodeTestHelper
       <image source="Unit1-Using-Objects-and-Methods/Figures/firstbug.jpg" width="54%" />
     </figure>
 
-    <br />
     <p>
       The compiler tries to run your code, but if your code has <term>syntax
       errors</term>, you will see error messages displayed below the code.
@@ -456,7 +454,7 @@ public class RunestoneTests extends CodeTestHelper
       <term>Check Your Understanding: Mixed up programs</term>
     </p>
 
-    <exercise label="mixed-hi" numbered="yes" adaptive="yes" indentation="hide" language="java">
+    <activity label="mixed-hi" numbered="yes" adaptive="yes" indentation="hide" language="java">
       <statement>
         <p>
           The following has all the correct code to print out “Hi my friend!”
@@ -489,9 +487,9 @@ public class RunestoneTests extends CodeTestHelper
           <cline>}</cline>
         </block>
       </blocks>
-    </exercise>
+    </activity>
 
-    <exercise label="mixed-hi-paired" numbered="yes" adaptive="yes" indentation="hide" language="java">
+    <activity label="mixed-hi-paired" numbered="yes" adaptive="yes" indentation="hide" language="java">
       <statement>
         <p>
           The following has all the correct code to print out “Hi there!” when
@@ -543,7 +541,7 @@ public class RunestoneTests extends CodeTestHelper
           <cline>}</cline>
         </block>
       </blocks>
-    </exercise>
+    </activity>
   </subsection>
 
   <subsection>
@@ -621,7 +619,7 @@ FirstClass.java:5: error: unclosed string literal
       <term>Coding Exercise: Compile Time Error 1</term>
     </p>
 
-    <exercise label="sc2error1">
+    <activity label="sc2error1">
       <statement>
         <p>Fix the code below.</p>
       </statement>
@@ -657,7 +655,7 @@ public class RunestoneTests extends CodeTestHelper
 }
         </tests>
       </program>
-    </exercise>
+    </activity>
 
     <p>
       <term>Coding Exercise: Compile Time Error 2</term>
@@ -670,7 +668,7 @@ public class RunestoneTests extends CodeTestHelper
       to fix the code and run it again.
     </p>
 
-    <exercise label="sc2error2">
+    <activity label="sc2error2">
       <statement>
         <p>Fix the code below.</p>
       </statement>
@@ -707,7 +705,7 @@ public class RunestoneTests extends CodeTestHelper
 }
         </tests>
       </program>
-    </exercise>
+    </activity>
 
     <p>
       <term>Coding Exercise: Compile Time Error 3</term>
@@ -716,10 +714,9 @@ public class RunestoneTests extends CodeTestHelper
     <p>
       Click on the run button below to try and run the following code. What is
       wrong this time? The first error message will probably point you directly
-      at the problem. But after you fix that you’ll probably get a
-      <title_reference>new</title_reference> error! That happens sometimes
-      because the compiler can’t even detect the second error until the first
-      one is fixed.
+      at the problem. But after you fix that you’ll probably get a <c>new</c>
+      error! That happens sometimes because the compiler can’t even detect the
+      second error until the first one is fixed.
     </p>
 
     <p>
@@ -728,7 +725,7 @@ public class RunestoneTests extends CodeTestHelper
       to fix it. Arg, an error! Get rid of it! But if we don’t slow down and
       read the message in a case like this, we might not notice that we’ve
       actually fixed the first error. If we don’t notice that we fixed it, we
-      might undo our change and <title_reference>unfix</title_reference> it!
+      might undo our change and <em>unfix</em> it!
     </p>
 
     <p>
@@ -737,7 +734,7 @@ public class RunestoneTests extends CodeTestHelper
       capitalization matters.
     </p>
 
-    <exercise label="sc2error3">
+    <activity label="sc2error3">
       <statement>
         <p>Fix the code below.</p>
       </statement>
@@ -775,7 +772,7 @@ public class RunestoneTests extends CodeTestHelper
 }
         </tests>
       </program>
-    </exercise>
+    </activity>
 
     <p>
       Did you remember that <c>System</c> is capitalized in
@@ -803,7 +800,7 @@ public class RunestoneTests extends CodeTestHelper
       below.
     </p>
 
-    <exercise label="divideByZeroDemo">
+    <activity label="divideByZeroDemo">
       <statement>
         <p>
           The following code has a run-time error. When you click on run, the
@@ -844,7 +841,7 @@ public class RunestoneTests extends CodeTestHelper
 }
         </tests>
       </program>
-    </exercise>
+    </activity>
 
     <p>
       Run-time errors can be difficult to find because they don’t always cause
@@ -903,7 +900,7 @@ int max = 10; // this keeps track of the max score
       get the code to run?
     </p>
 
-    <exercise label="challenge1-1">
+    <activity label="challenge1-1">
       <statement>
         <p>Fix the code below.</p>
       </statement>
@@ -942,7 +939,7 @@ public class RunestoneTests extends CodeTestHelper
 }
         </tests>
       </program>
-    </exercise>
+    </activity>
   </subsection>
 
   <subsection>
@@ -1073,7 +1070,7 @@ public class MyClass
 
   <subsection>
     <title>AP Practice</title>
-    <exercise label="AP1-1-print">
+    <activity label="AP1-1-print">
       <statement>
         <p>Consider the following code segment.</p>
         <program language="java">
@@ -1100,12 +1097,11 @@ Unexpected '}' on line 32.
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement id="AP1-1-print_opt_a">
             <p>
-              Replacing <title_reference>System</title_reference> with
-              <title_reference>system</title_reference> on all lines.
+              Replacing <c>System</c> with <c>system</c> on all lines.
             </p>
           </statement>
 
@@ -1147,7 +1143,7 @@ Unexpected '}' on line 32.
           </feedback>
         </choice>
       </choices>
-    </exercise>
+    </activity>
 
     <datafile label="turtleClasses" filename="turtleClasses.jar" editable="no" hide="yes">
       <pre>

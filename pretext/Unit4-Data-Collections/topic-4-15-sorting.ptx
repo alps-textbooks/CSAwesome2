@@ -8,9 +8,9 @@
       There are many sorting algorithms to put an array or <c>ArrayList</c>
       elements in alphabetic or numerical order. Selection sort and insertion
       sort are iterative sorting algorithms that can be used to sort elements in
-      an array or <title_reference>ArrayList</title_reference>. We will show
-      these algorithms below for arrays. The three sorting algorithms that you
-      need to know for the AP CSA exam are:
+      an array or <c>ArrayList</c>. We will show these algorithms below for
+      arrays. The three sorting algorithms that you need to know for the AP CSA
+      exam are:
     </p>
 
     <idx>selection sort</idx>
@@ -206,7 +206,7 @@ public class RunestoneTests extends CodeTestHelper
         <p>Under what condition will a selection sort execute faster?</p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>If the data is already sorted in ascending order</p>
@@ -273,7 +273,7 @@ public static void selectionSort(int[] elements)
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>line 1</p>
@@ -501,7 +501,7 @@ public class RunestoneTests extends CodeTestHelper
         <p>Under what condition will an insertion sort execute faster?</p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement>
             <p>If the data is already sorted in ascending order</p>
@@ -564,7 +564,7 @@ public static void insertionSort(int[] elements)
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement>
             <p>line 1</p>

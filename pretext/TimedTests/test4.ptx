@@ -19,110 +19,7 @@
   </p>
 
   <exercises label="test4" time-limit="45" timer="yes">
-    <exercise label="pe4_1">
-      <statement>
-        <p>
-          Consider the following partial class definitions. Which of the
-          constructors shown below (I, II, and III) are valid for C2?
-        </p>
-
-        <program language="java">
-          <code>
-public class C1
-{
-   private int num;
-   private String name;
-
-   public C1(int theNum)
-   {
-      num = theNum;
-   }
-
-   public C1(String theName)
-   {
-      name = theName;
-   }
-   // other methods not shown
-}
-
-public class C2 extends C1
-{
-// methods not shown
-}
-
-Possible constructors
-I.   public C2 () { }
-II.  public C2 (int quan) {super (quan); }
-III. public C2 (String label) { super(label); }
-          </code>
-        </program>
-      </statement>
-
-      <choices>
-        <choice>
-          <statement>
-            <p>All three are valid</p>
-          </statement>
-
-          <feedback>
-            <p>
-              If there is not a call to super as the first line in a child class
-              constructor then super() is automatically added. However, this
-              will cause a problem if the parent class does not have a no
-              argument constructor.
-            </p>
-          </feedback>
-        </choice>
-
-        <choice>
-          <statement>
-            <p>II only</p>
-          </statement>
-
-          <feedback>
-            <p>While II is valid so is another choice.</p>
-          </feedback>
-        </choice>
-
-        <choice>
-          <statement>
-            <p>III only</p>
-          </statement>
-
-          <feedback>
-            <p>While III is valid so is another choice.</p>
-          </feedback>
-        </choice>
-
-        <choice correct="yes">
-          <statement>
-            <p>II and III</p>
-          </statement>
-
-          <feedback>
-            <p>
-              Since C1 has constructors that take just an int and just a String
-              both of these are valid.
-            </p>
-          </feedback>
-        </choice>
-
-        <choice>
-          <statement>
-            <p>None are valid</p>
-          </statement>
-
-          <feedback>
-            <p>
-              C2 constructors can call C1 constructors using the super keyword.
-              In fact this call is automatically added to C2 constructors as the
-              first line in any C2 constructor if it isn't there.
-            </p>
-          </feedback>
-        </choice>
-      </choices>
-    </exercise>
-
+    
     <exercise label="pe4_2">
       <statement>
         <p>
@@ -131,7 +28,7 @@ III. public C2 (String label) { super(label); }
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>x != y</p>
@@ -241,7 +138,7 @@ public static void sort(int[] a)
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>if (a[savedIndex] &gt; a[j]) { j = savedIndex; }</p>
@@ -329,7 +226,7 @@ public static void changeMatrix(int[][] matrix )
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>{ {4, -5, 6},{-1, -2, 3}}</p>
@@ -415,7 +312,7 @@ for (int i=1; i&lt;=4; i++)
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>a = 4 and b = 3</p>
@@ -499,7 +396,7 @@ public static int mystery(int n)
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>243</p>
@@ -561,7 +458,7 @@ public static int mystery(int n)
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>{3,6,8,5,1}, {3,5,6,8,1}, {1,3,5,6,8}</p>
@@ -642,7 +539,7 @@ for(int i = 0; i &lt; 3; i++)
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement>
             <p>21</p>
@@ -745,7 +642,7 @@ public static void conditionTest(int num1, int num2)
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>A</p>
@@ -828,7 +725,7 @@ s4 = null;
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>hi there</p>
@@ -900,7 +797,7 @@ System.out.println(s3);
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>mp</p>
@@ -969,70 +866,7 @@ System.out.println(s3);
       </choices>
     </exercise>
 
-    <exercise label="pe4_13">
-      <statement>
-        <p>
-          Given the following class declarations, which declaration below will
-          result in a compiler error?
-        </p>
-
-        <program language="java">
-          <code>
-public class Book
-{
-    // code for class
-}
-
-public class Dictionary extends Book
-{
-    // code for class
-}
-          </code>
-        </program>
-      </statement>
-
-      <choices>
-        <choice>
-          <statement>
-            <p>Book b = new Book();</p>
-          </statement>
-
-          <feedback>
-            <p>
-              A object can always be declared to be of the type of the class
-              that creates it.
-            </p>
-          </feedback>
-        </choice>
-
-        <choice correct="yes">
-          <statement>
-            <p>Dictionary d = new Book();</p>
-          </statement>
-
-          <feedback>
-            <p>
-              The declared type must the type of the class that creates the
-              object or the type of any parent class. Dictionary is not a parent
-              of the Book class.
-            </p>
-          </feedback>
-        </choice>
-
-        <choice>
-          <statement>
-            <p>Book b = new Dictionary();</p>
-          </statement>
-
-          <feedback>
-            <p>
-              The declared type can be the actual type (the class that creates
-              the object) or any parent of the actual type.
-            </p>
-          </feedback>
-        </choice>
-      </choices>
-    </exercise>
+    
 
     <exercise label="pe4_14">
       <statement>
@@ -1058,7 +892,7 @@ public static int mystery(String str)
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>2</p>
@@ -1122,7 +956,7 @@ public static int mystery(String str)
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>The value is the first one in the array</p>
@@ -1190,104 +1024,14 @@ public static int mystery(String str)
       </choices>
     </exercise>
 
-    <exercise label="pe4_16">
-      <statement>
-        <p>
-          Given the following array declaration and the fact that Animal is the
-          parent class for Bird, Dog, Pig, Cat, and Cow, what is output from
-          looping through this array of animals and asking each object to
-          speak()?
-        </p>
-
-        <program language="java">
-          <code>
-Animal[] a = { new Cat(), new Cow(), new Dog(), new Pig(), new Bird() }
-
-Animal that has a method speak() which returns "Awk".
-Bird doesn’t have a speak method
-Dog has a speak method that returns "Woof"
-Pig doesn’t have a speak method
-Cow has a speak method that returns "Moo"
-Cat has a speak method that returns "Meow"
-          </code>
-        </program>
-      </statement>
-
-      <choices>
-        <choice>
-          <statement>
-            <p>Awk Awk Awk Awk Awk</p>
-          </statement>
-
-          <feedback>
-            <p>
-              This would be true if none of the children classes overrode the
-              speak method, but many do.
-            </p>
-          </feedback>
-        </choice>
-
-        <choice>
-          <statement>
-            <p>This won’t compile</p>
-          </statement>
-
-          <feedback>
-            <p>
-              It is always okay to substitute a child object for a parent
-              object.
-            </p>
-          </feedback>
-        </choice>
-
-        <choice>
-          <statement>
-            <p>Meow Moo Woof Oink Tweet</p>
-          </statement>
-
-          <feedback>
-            <p>
-              This would be true if Pig had a speak method that returned "Oink"
-              and Bird had a speak method that returned "Tweet", but they do
-              not. The inherited speak method will be called in Animal.
-            </p>
-          </feedback>
-        </choice>
-
-        <choice>
-          <statement>
-            <p>Meow Moo Woof Oink Awk</p>
-          </statement>
-
-          <feedback>
-            <p>
-              This would be true if Pig had a speak method that returned "Oink",
-              but it does not.
-            </p>
-          </feedback>
-        </choice>
-
-        <choice correct="yes">
-          <statement>
-            <p>Meow Moo Woof Awk Awk</p>
-          </statement>
-
-          <feedback>
-            <p>
-              Both Pig and Bird do not have a speak method so the one in Animal
-              will be used.
-            </p>
-          </feedback>
-        </choice>
-      </choices>
-    </exercise>
+    
 
     <exercise label="pe4_17">
       <statement>
         <p>What is the result of 17 (in base 16) - 13 (in base 8)?</p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>4 in base 8</p>
@@ -1378,7 +1122,7 @@ test(s,b);
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement>
             <p>s={3, 8}; b=4;</p>
@@ -1459,7 +1203,7 @@ III.  Selection sort takes less time to execute if the array is already sorted
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>I only</p>
@@ -1553,7 +1297,7 @@ public int mystery(int low, int high, int num)
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>1</p>

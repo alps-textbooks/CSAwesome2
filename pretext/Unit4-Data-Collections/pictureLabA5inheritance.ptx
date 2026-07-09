@@ -39,24 +39,19 @@
       The following questions require some knowledge about inheritance which is
       no longer covered on the AP exam.
     </p>
-
-    <p>
-      Click on this <url href="https://replit.com/@BerylHoffman/Picture-Lab"
-      visual="https://replit.com/@BerylHoffman/Picture-Lab">Picture Lab project
-      link</url> and click on Show files to answer the following questions.
-    </p>
+  
 
     <activity label="picture-day5-0a">
       <statement>
         <p>
-          Click on the <url href="https://replit.com/@BerylHoffman/Picture-Lab"
-          visual="https://replit.com/@BerylHoffman/Picture-Lab">Picture Lab
-          project link</url> and click on Show files. Open <c>Picture.java</c>
+         Take a look at the <url
+      href="https://raw.githubusercontent.com/bhoffman0/CSAwesome2/refs/heads/main/_static/Picture-Lab/Picture.java">
+      Picture.java file</url>  
           and look for the method <c>getPixels2D</c>. Is it there?
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>Yes</p>
@@ -88,12 +83,14 @@
     <activity label="picture-day5-1">
       <statement>
         <p>
-          Open <c>SimplePicture.java</c> and look for the method
-          <c>getPixels2D</c>. Is it there?
+          Take a look at the <url
+      href="https://raw.githubusercontent.com/bhoffman0/CSAwesome2/refs/heads/main/_static/Picture-Lab/SimplePicture.java">
+      SimplePicture.java file</url>  
+          and look for the method <c>getPixels2D</c>. Is it there?
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement>
             <p>Yes</p>
@@ -128,7 +125,7 @@
         <p>DigitalPicture p = new DigitalPicture();</p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>yes</p>
@@ -168,7 +165,7 @@
         <p>DigitalPicture p = new SimplePicture();</p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement>
             <p>yes</p>
@@ -208,7 +205,7 @@
         <p>DigitalPicture p = new Picture();</p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement>
             <p>yes</p>
@@ -247,7 +244,7 @@
         <p>SimplePicture p = new Picture();</p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement>
             <p>yes</p>
@@ -286,7 +283,7 @@
         <p>Picture p = new SimplePicture();</p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>yes</p>

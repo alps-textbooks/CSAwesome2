@@ -113,7 +113,7 @@ System.out.println(numList);
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>[1, 2, 3, 4, 5]</p>
@@ -193,7 +193,7 @@ System.out.println(list1);
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>[2, 3]</p>
@@ -490,7 +490,7 @@ public class RunestoneTests extends CodeTestHelper
         String output = getMethodOutput("main");
         String expect = "Max: 12";
 
-        boolean passed = getResults(expect, output, "Main outpu");
+        boolean passed = getResults(expect, output, "Main output");
         assertTrue(passed);
     }
     @Test
@@ -991,16 +991,7 @@ public class RunestoneTests extends CodeTestHelper
         boolean passed = getResults(expect, output, "Expected output from main");
         assertTrue(passed);
     }
-    @Test
-    public void testSet()
-    {
-        String target = "set";
-        boolean passed =
-                checkCodeContains(
-                        "set method",
-                        target);
-        assertTrue(passed);
-    }
+  
     @Test
         public void test2()
         {
@@ -1379,23 +1370,19 @@ public class ParallelTests
         </li>
 
         <li>
-          <url href="2016freeresponseQ4A.html" visual="2016freeresponseQ4A.html">StringFormatter Q4 A FRQ</url>
+          <url href="stringFormatterA.html" visual="stringFormatterA.html">StringFormatter Q4 A FRQ</url>
         </li>
 
         <li>
-          <url href="2016freeresponseQ4B.html" visual="2016freeresponseQ4B.html">StringFormatter Q4 B FRQ</url>
+          <url href="stringFormatterB.html" visual="stringFormatterB.html">StringFormatter Q4 B FRQ</url>
         </li>
 
         <li>
-          <url href="2019delimitersQ3a.html" visual="2019delimitersQ3a.html">Delimiters Q3 A FRQ</url>
+          <url href="delimitersQ3a.html" visual="delimitersQ3a.html">Delimiters Q3 A FRQ</url>
         </li>
 
         <li>
-          <url href="2019delimitersQ3b.html" visual="2019delimitersQ3b.html"> Delimiters Q3 B FRQ</url>
-        </li>
-
-        <li>
-          <url href="2013gridworldQ3A.html" visual="2013gridworldQ3A.html"> Gridworld Q3 A FRQ</url>
+          <url href="delimitersQ3b.html" visual="delimitersQ3b.html"> Delimiters Q3 B FRQ</url>
         </li>
       </ul>
     </p>

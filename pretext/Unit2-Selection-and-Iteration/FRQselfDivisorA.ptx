@@ -9,8 +9,7 @@
       The following is part a of a free response question from 2007. It was
       question 1 on the exam. You can see all the free response questions from
       past exams at <url
-      href="https://apstudents.collegeboard.org/courses/ap-computer-science-a/free-response-questions-by-year"
-      visual="https://apstudents.collegeboard.org/courses/ap-computer-science-a/free-response-questions-by-year">https://apstudents.collegeboard.org/courses/ap-computer-science-a/free-response-questions-by-year</url>.
+     href="https://www.savemyexams.com/ap/computer-science/college-board/a/past-papers/">Past AP CSA Exams</url>.
     </p>
 
     <p>
@@ -74,6 +73,10 @@ public class SelfDivisor
       return true.
     </p>
 
+  <activity label="mod-demo1">
+      <statement>
+        <p>Try the code below</p>
+      </statement>
     <program interactive="activecode" language="java">
       <code>
 public class TestMod
@@ -108,6 +111,7 @@ public class RunestoneTests extends CodeTestHelper
 }
       </tests>
     </program>
+</activity>
 
     <p>
       To check if 26 is a self-divisor we divide 26 by 6 and find that it has a
@@ -115,6 +119,10 @@ public class RunestoneTests extends CodeTestHelper
       return false.
     </p>
 
+  <activity label="mod-demo2">
+      <statement>
+        <p>Try the code below</p>
+      </statement>
     <program interactive="activecode" language="java">
       <code>
 public class TestSelfDivisor
@@ -147,6 +155,7 @@ public class RunestoneTests extends CodeTestHelper
 }
       </tests>
     </program>
+    </activity>
 
     <p>
       To return false if the number has a 0 in it we just have to check if the
@@ -174,6 +183,10 @@ public class RunestoneTests extends CodeTestHelper
       below to see how this works.
     </p>
 
+  <activity label="mod-demo3">
+      <statement>
+        <p>Try the code below</p>
+      </statement>
     <program interactive="activecode" language="java">
       <code>
 public class TestDigits
@@ -209,6 +222,7 @@ public class RunestoneTests extends CodeTestHelper
 }
       </tests>
     </program>
+    </activity>
 
     <p>
       <term>Algorithm</term>:
@@ -237,7 +251,7 @@ public class RunestoneTests extends CodeTestHelper
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>for</p>
@@ -284,7 +298,7 @@ public class RunestoneTests extends CodeTestHelper
         <p>What should you use as the test in the while loop?</p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>Loop while the current number is greater than 10.</p>

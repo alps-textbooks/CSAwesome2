@@ -278,10 +278,8 @@ public class RunestoneTests extends CodeTestHelper
       created, its attributes cannot be changed. So when we add two
       <c>String</c>s (or a <c>String</c> and another value converted to a
       <c>String</c>) we get a new <c>String</c> without making any change to the
-      values being added together just like when we add the ints
-      <title_reference>1 + 2</title_reference> the original
-      <title_reference>1</title_reference> and
-      <title_reference>2</title_reference> aren’t changed. When we use <c>+=</c>
+      values being added together just like when we add the ints <c>1 + 2</c>
+      the original <c>1</c> and <c>2</c> aren’t changed. When we use <c>+=</c>
       we are making a new <c>String</c> by adding something to the current value
       of a variable and then assigning that new value back into the variable,
       again just like with numbers.
@@ -360,7 +358,7 @@ s1 = s1 + s2 + "z";
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>xyz</p>
@@ -760,7 +758,7 @@ int pos = s1.indexOf("b");
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>2</p>
@@ -817,7 +815,7 @@ int len = s1.length();
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>2</p>
@@ -874,7 +872,7 @@ String s2 = s1.substring(0,3);
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>baby</p>
@@ -935,7 +933,7 @@ String s2 = s1.substring(2);
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement>
             <p>by</p>
@@ -1186,7 +1184,7 @@ int answer = s1.compareTo(s2);
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement>
             <p>positive (&gt; 0)</p>
@@ -1635,7 +1633,7 @@ String s2 = s1.substring(0,pos);
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement>
             <p>hi th</p>
@@ -1705,7 +1703,7 @@ String s3 = s2.toLowerCase();
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement>
             <p>Hi</p>

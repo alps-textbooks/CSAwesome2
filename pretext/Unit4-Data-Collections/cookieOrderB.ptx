@@ -9,8 +9,8 @@
       The following is a free response question from 2010. It was question 1 on
       the exam. You can see all the free response questions from past exams at
       <url
-      href="https://apstudents.collegeboard.org/courses/ap-computer-science-a/free-response-questions-by-year"
-      visual="https://apstudents.collegeboard.org/courses/ap-computer-science-a/free-response-questions-by-year">https://apstudents.collegeboard.org/courses/ap-computer-science-a/free-response-questions-by-year</url>.
+     href="https://www.savemyexams.com/ap/computer-science/college-board/a/past-papers/">Past AP CSA Exams</url>.
+
     </p>
 
     <p>
@@ -87,7 +87,7 @@ public class MasterOrder
     {
         /* to be implemented in part (a) */
     }
-    
+
     /** Removes all cookie orders from the master order that have the same variety of
      * cookie as cookieVar and returns the total number of boxes that were removed.
      * @param cookieVar the variety of cookies to remove from the master order
@@ -141,8 +141,8 @@ goodies.addOrder(new CookieOrder("Chocolate Chip", 3));
     </figure>
 
     <p>
-      The method call <c>goodies.removeVariety("Brownie")</c> returns
-      <title_reference>0</title_reference> and does not change the master order.
+      The method call <c>goodies.removeVariety("Brownie")</c> returns <c>0</c>
+      and does not change the master order.
     </p>
   </introduction>
 
@@ -160,7 +160,7 @@ goodies.addOrder(new CookieOrder("Chocolate Chip", 3));
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>while</p>
@@ -210,7 +210,7 @@ goodies.addOrder(new CookieOrder("Chocolate Chip", 3));
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>remove(list[2]);</p>
@@ -257,7 +257,7 @@ goodies.addOrder(new CookieOrder("Chocolate Chip", 3));
         <p>How would you compare the values of two Strings str1 and str2?</p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>if (str1 == str2)</p>

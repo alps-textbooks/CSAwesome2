@@ -97,7 +97,7 @@
         <cline>    <area correct="no">private String name;</area></cline>
         <cline>    <area correct="no">private String email;</area></cline>
         <cline></cline>
-        <cline>    <area correct="no">public Student(String initName, String intEmail) </area></cline>
+        <cline>    <area correct="no">public Student(String initName, String initEmail) </area></cline>
         <cline>    <area correct="no">{</area></cline>
         <cline>        <area correct="no">name = initName;</area></cline>
         <cline>        <area correct="no">email = initEmail;</area></cline>
@@ -567,16 +567,14 @@ public class RunestoneTests extends CodeTestHelper
     </p>
 
     <p>
-      In contrast, methods with a return type of anything
-      <title_reference>other</title_reference> than <c>void</c> are called
-      <term>non-void</term> methods. These methods <term>return</term> a value
-      that the code calling the method can use. And because methods are called
-      on an object, these methods can be used to return values that tell us
-      things about an object’s internal state. In well-designed programs, non-
-      void methods typically don’t have effects; they just compute and return a
-      value. To put it another way, void methods <title_reference>do
-      things</title_reference> while non-void methods <title_reference>produce
-      values</title_reference>.
+      In contrast, methods with a return type of anything <em>other</em> than
+      <c>void</c> are called <term>non-void</term> methods. These methods
+      <term>return</term> a value that the code calling the method can use. And
+      because methods are called on an object, these methods can be used to
+      return values that tell us things about an object’s internal state. In
+      well-designed programs, non- void methods typically don’t have effects;
+      they just compute and return a value. To put it another way, void methods
+      <em>do things</em> while non-void methods <em>produce values</em>.
     </p>
 
     <p>
@@ -842,7 +840,7 @@ System.out.println(c.getArea());
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>0</p>
@@ -948,7 +946,7 @@ System.out.println(r.getArea());
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>150</p>
@@ -1127,7 +1125,7 @@ public class MethodTrace
         </program>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>5</p>
@@ -1539,7 +1537,7 @@ public class Party
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement id="AP-Party-Methods_opt_a">
             <p>myParty.cancelParty();</p>
@@ -1632,7 +1630,7 @@ public class Cat
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement id="AP-Cat-trace_opt_a">
             <program language="java">
@@ -1765,7 +1763,7 @@ System.out.println(water.getTemp());
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement id="AP-Liquid-return_opt_a">
             <p>-10</p>
@@ -1857,7 +1855,7 @@ public void printSlices(int slices)
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement id="AP-Pizza-trace-args_opt_a">
             <p>printSlices(slicesPerPerson);</p>

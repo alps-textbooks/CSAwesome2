@@ -108,7 +108,7 @@ public class Person
             the main method or from outside the class.
           </p>
 
-          
+
             <program language="java">
               <code>
 // Step 1: declare an object in main or from outside the class
@@ -627,13 +627,13 @@ public class RunestoneTests extends CodeTestHelper
     <title>Mutators / Setters</title>
     <p>
       In complement to the accessor/getter methods, if we want to allow code
-      outside the class to <title_reference>change</title_reference> the value
-      of an instance variable we have to provide what is formally called a
-      <term>mutator method</term> but which everyone actually calls a
-      <term>setter</term>. A setter is a void method with a name that starts
-      with <c>set</c> and that takes a single argument of the same type as the
-      instance variable to be set. The effect of a setter, as you would probably
-      expect, is to assign the provided value to the instance variable.
+      outside the class to <em>change</em> the value of an instance variable we
+      have to provide what is formally called a <term>mutator method</term> but
+      which everyone actually calls a <term>setter</term>. A setter is a void
+      method with a name that starts with <c>set</c> and that takes a single
+      argument of the same type as the instance variable to be set. The effect
+      of a setter, as you would probably expect, is to assign the provided value
+      to the instance variable.
     </p>
 
     <p>
@@ -873,7 +873,7 @@ public class Party
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement id="setSignature_opt_a">
             <p>public int getNum(int people)</p>
@@ -941,10 +941,14 @@ public class Party
     </activity>
 
     <p>
-      Mutator methods do not have to have a name with “set” in it, although most
-      do. They can be any methods that change the value of an instance variable
-      in the class. Most mutator methods are non-void methods. Mutator methods
-      do not have to have parameters, but they usually do.
+      Mutator methods do not have to have a name with “set” in it, although
+      methods that exist just to set a single instance variable usually do. But
+      any method that changes the value of any instance variables is a mutator.
+      Mutator methods are often <code>void</code> methods to make it clear that
+      they are called for their side effects. Some mutators do return a value
+      that provides information about the result of the mutation or the new
+      state of the object. Similarly, mutator methods do not have to take any
+      arguments, but they usually do.
     </p>
   </subsection>
 
@@ -1011,9 +1015,9 @@ public class StringFind
      *
      * @param String letter to look for
      * @param String text to look in
-     * @return boolean true if letter is in text 
-     * After running the code, change this method 
-     * to return an int count of how many times letter is in 
+     * @return boolean true if letter is in text
+     * After running the code, change this method
+     * to return an int count of how many times letter is in
      * the text.
      */
     public boolean findLetter(String letter, String text)
@@ -1749,7 +1753,7 @@ public class Party
 
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice correct="yes">
           <statement>
             <p>The getNumOfPeople method should be declared as public.</p>
@@ -1839,7 +1843,7 @@ public class Student
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement id="AP-get2_opt_a">
             <p>The id instance variable should be public.</p>
@@ -1925,7 +1929,7 @@ public class Liquid
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement id="AP-mutator1_opt_a">
             <p>The constructor header does not have a return type.</p>
@@ -2019,7 +2023,7 @@ public class Party
         </p>
       </statement>
 
-      <choices>
+       <choices randomize="yes">
         <choice>
           <statement>
             <p>Replace line 12 with numOfPeople = additionalPeople;</p>
