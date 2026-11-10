@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="Array2dParsonsPractice">
-  <title>2D Arrays Mixed Up Code Practice</title>
+  <title>Unit 4C - 2D Arrays Mixed Up Code Practice</title>
   <p>
     Try to solve each of the following. Click the <em>Check Me</em> button to
     check each solution. You will be told if your solution is too short, has a
@@ -190,8 +190,8 @@
     <statement>
       <p>
         The following program segment is a method that should accept a
-        two-dimensional String array “image” and flip the “image” 180 degrees
-        vertically. For example: 1 2 3 4 -&gt; 4 3 2 1. But, the blocks have
+        two-dimensional String array “image” and reverse each row from left to
+        right. For example: 1 2 3 4 -&gt; 4 3 2 1. But, the blocks have
         been mixed up and include one extra block that is not needed in a
         correct solution. Drag the needed blocks from the left and put them in
         the correct order on the right. Click the Check button to check your

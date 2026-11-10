@@ -2,18 +2,22 @@
 <publication>
 
   <source>
-    <directories external="assets" generated="generated"/>
+    <directories generated="generated"/>
   </source>
 
   <!-- This starts chapter numbering at 0 -->
   <numbering>
     <divisions chapter-start="0"/>
+    <!-- to have <activity> be on its on numbering counter -->
+    <projects distinct="yes"/>  
   </numbering>
   <common>
        <tableofcontents level="3" focused="yes"/>
   </common>
   <html>
     <platform host="web"/>
+    <!-- did not work here! moving back to bookinfo -->
+    <brandlogo url="./index.html" source="_static/CSAwesomeLogo.png" alt="CSAwesome" />
     <!-- knowled checkpoints interfere with ActiveCode problems -->
     <knowl exercise-inline="no" example="no" listing="no"/>
     <!-- for scratch code language -->

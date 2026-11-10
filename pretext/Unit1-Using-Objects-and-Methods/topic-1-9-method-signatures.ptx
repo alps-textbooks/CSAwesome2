@@ -66,7 +66,7 @@
 
       <areas>
         <cline><area correct="no">public static void main(String args[]) {</area></cline>
-        <cline>    <area correct="yes">System.out.println("Old MacDonald had a farm.");</area></cline>
+        <cline>    <area correct="yes">System.out.println("Old MacDonald had a farm");</area></cline>
         <cline>    <area correct="yes">System.out.println("E-I-E-I-O");</area></cline>
         <cline>    <area correct="no">System.out.println("And on this farm, they had a cow.");</area></cline>
         <cline>    <area correct="yes">System.out.println("E-I-E-I-O");</area></cline>
@@ -482,7 +482,7 @@ public class Song
 
       <areas>
         <cline><area correct="no">public static void main(String args[]) {</area></cline>
-        <cline>    <area correct="no">System.out.println("Old MacDonald had a farm.");</area></cline>
+        <cline>    <area correct="no">System.out.println("Old MacDonald had a farm");</area></cline>
         <cline>    <area correct="no">System.out.println("E-I-E-I-O");</area></cline>
         <cline>    <area correct="no">System.out.println("And on this farm, they had a </area> <area correct="yes"> cow</area><area correct="no">.");</area></cline>
         <cline>    <area correct="no">System.out.println("E-I-E-I-O");</area></cline>
@@ -856,9 +856,9 @@ public class AntsSong
         // to print out all three verses above.
 
 
-
     }
 }
+
         </code>
         <tests>
 import static org.junit.Assert.*;
@@ -868,67 +868,117 @@ import java.io.*;
 public class RunestoneTests extends CodeTestHelper
 {
     @Test
-    public void checkCodeContains1()
+    public void test1()
     {
         String code = getCode();
-        int actual = countOccurences(code, "chorus(");
+        int actual = countOccurences(code, "chorus(")-1;
         String expected = "3";
 
         boolean passed = actual &gt;= 3;
         getResults(
-                expected,
-                "" + actual,
-                "Checking that code contains 3 calls to  chorus",
-                passed);
+            expected,
+            "" + actual,
+            "Checking that code contains 3 calls to  chorus",
+            passed);
         assertTrue(passed);
     }
+
     @Test
-    public void checkCodeContains2()
+    public void test2()
     {
         String code = getCode();
-        int actual = countOccurences(code, "verse(");
+        int actual = countOccurences(code, "verse(")-1;
         String expected = "3";
 
         boolean passed = actual &gt;= 3;
         getResults(
-                expected,
-                "" + actual,
-                "Checking that code contains three calls to verse method",
-                passed);
+            expected,
+            "" + actual,
+            "Checking that code contains three calls to verse method",
+            passed);
         assertTrue(passed);
     }
+
     @Test
-     public void testMain() throws IOException
-     {
-         String output = getMethodOutput("main");
+    public void test3()
+    {
+        String num = "one";
+        String phrase = "suck a thumb";
 
-         String expect =
-            "The ants go marching one by one, hurrah, hurrah\n"
-                    + "The ants go marching one by one, hurrah, hurrah\n"
-                    + "The ants go marching one by one\n"
-                    + "The little one stops to suck a thumb\n"
-                    + "And they all go marching down to the ground\n"
-                    + "To get out of the rain, BOOM! BOOM! BOOM! BOOM!\n"
-                    + "\n"
-                    + "The ants go marching two by two, hurrah, hurrah\n"
-                    + "The ants go marching two by two, hurrah, hurrah\n"
-                    + "The ants go marching two by two\n"
-                    + "The little one stops to tie a shoe\n"
-                    + "And they all go marching down to the ground\n"
-                    + "To get out of the rain, BOOM! BOOM! BOOM! BOOM!\n"
-                    + "\n"
-                    + "The ants go marching three by three, hurrah, hurrah\n"
-                    + "The ants go marching three by three, hurrah, hurrah\n"
-                    + "The ants go marching three by three\n"
-                    + "The little one stops to climb a tree\n"
-                    + "And they all go marching down to the ground\n"
-                    + "To get out of the rain, BOOM! BOOM! BOOM! BOOM!";
+        boolean passed = checkVerse(num, phrase);
+        assertTrue(passed);
+    }
 
-               boolean passed =
-               getResults(expect, output, "Expected output from main");
-               assertTrue(passed);
-         }
+    @Test
+    public void test4()
+    {
+        String num = "two";
+        String phrase = "tie a shoe";
 
+        boolean passed = checkVerse(num, phrase);
+        assertTrue(passed);
+    }
+
+    @Test
+    public void test5()
+    {
+        String num = "three";
+        String phrase = "climb a tree";
+
+        boolean passed = checkVerse(num, phrase);
+        assertTrue(passed);
+    }
+
+    public boolean checkVerse(String num, String phrase)
+    {
+        String output = getMethodOutput("main");
+
+        String expect = "";
+        String[] songLines = song.split("\n");
+        for (String line : songLines) {
+            if ((line.contains(num) || line.contains(phrase)) &amp;&amp; !line.contains("hurrah")) {
+                expect += line + "\n";
+                if (line.contains("The little one stops"))
+                    break;
+            }
+        }
+
+        String actual = "";
+        String[] actLines = output.split("\n");
+        for (String line : actLines) {
+            if ((line.contains(num) || line.contains(phrase)) &amp;&amp; !line.contains("hurrah")) {
+                actual += line + "\n";
+                if (line.contains("The little one stops"))
+                    break;
+            }
+        }
+
+        boolean passed =
+            getResults(expect, actual, "Verse " + num);
+        return passed;
+    }
+
+    private String song =
+        "The ants go marching one by one, hurrah, hurrah\n"
+        + "The ants go marching one by one, hurrah, hurrah\n"
+        + "The ants go marching one by one\n"
+        + "The little one stops to suck a thumb\n"
+        + "And they all go marching down to the ground\n"
+        + "To get out of the rain, BOOM! BOOM! BOOM! BOOM!\n"
+        + "\n"
+        + "The ants go marching two by two, hurrah, hurrah\n"
+        + "The ants go marching two by two, hurrah, hurrah\n"
+        + "The ants go marching two by two\n"
+        + "The little one stops to tie a shoe\n"
+        + "And they all go marching down to the ground\n"
+        + "To get out of the rain, BOOM! BOOM! BOOM! BOOM!\n"
+        + "\n"
+        + "The ants go marching three by three, hurrah, hurrah\n"
+        + "The ants go marching three by three, hurrah, hurrah\n"
+        + "The ants go marching three by three\n"
+        + "The little one stops to climb a tree\n"
+        + "And they all go marching down to the ground\n"
+        + "To get out of the rain, BOOM! BOOM! BOOM! BOOM!";
 }
         </tests>
       </program>

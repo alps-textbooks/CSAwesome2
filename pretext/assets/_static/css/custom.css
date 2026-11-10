@@ -1,11 +1,11 @@
-/* Most of these rules are from the rst version so might not work in ptx
-   Replaced .runestone-sphinx with .ptx-content. */
-
-:root {
-    --emphasisColor: #007d9f;
-    --codeColor: #641227;
+html:root {
+  --emphasisColor: #007d9f;
+  --codeColor: #641227;
+  --content-fontSize: 1em;
+  --ptx-content-font-size: 1em;
+  --ptx-content-line-height: 1.5;
     /* Make this as narrow as we can while still getting side-by-side Parson's problems. */
-    --contentWidthWide: calc(var(--contentWidthRegular) + 250px);
+  --contentWidthWide: calc(var(--contentWidthRegular) + 250px);
 }
 
 :root.dark-mode {
@@ -41,10 +41,9 @@ div.time {
 }
 
 /* The wide style seems to add huge font size so put it down */
-.ptx-content .para
-{
-  font-size: 1rem;
-  line-height: 1.5;
+.ptx-content .para {
+  font-size: 97%;
+  /* line-height: 1.5; This freezes the accessibility tool line height */
 }
 
 /* Default spacing between paragraphs is too much. */
@@ -56,16 +55,23 @@ section > .para + .para {
 .ptx-content section section > .heading,
 .ptx-content section section section > .heading
 {
-    font-size: 1.4rem;
+    font-size: 1.3em;
     color:  var(--emphasisColor);
     border-bottom: 2px solid #70d549;
     padding-top: 0.5em;
     margin-bottom: 0.5em;
 }
 
+/* Activity headings */
+.ptx-content .heading h3,
+.ptx-content article>.heading {
+  font-size: 1.1em;
+}
+
+/* This might not be used anymore */
 .ptx-content .heading h4
 {
-  font-size: 1.4rem;
+  font-size: 1.3em;
   color:  var(--emphasisColor);
 }
 
@@ -111,8 +117,14 @@ section > .para + .para {
   font-family: Menlo, Monaco, Consolas,"Courier New", monospace;
 }
 
+/* There's no padding in the output of activecode exercises, so add some. */
+.ptx-runestone-container .ac_output pre {
+   padding: 8px;
+}
+
+/* These are the big buttons for the sections */
 .ptx-content .summary-links {
-  font-size: 1rem;
+  font-size: 90%;
 }
 
 /* For displaying exercise ids */
