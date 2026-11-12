@@ -9,8 +9,8 @@
   <!-- group 1 gets the reverse. Every student sees both kinds of help.        -->
   <p>
     Write your own solution for each problem below and click Run to check it.
-    If you get stuck, click the <em>Get Help</em> button for a mixed up code
-    puzzle that can help you finish.
+    If you get stuck, click the <em>Pathfinder</em> button (the compass) on the
+    problem for step-by-step hints and a mixed up code puzzle that can help you finish.
   </p>
 
   <exercise label="u3-toggle1">
