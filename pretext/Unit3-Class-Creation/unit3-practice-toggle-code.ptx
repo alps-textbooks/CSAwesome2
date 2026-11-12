@@ -3,133 +3,360 @@
 <section xml:id="unit3-practice-toggle-code">
   <title>Toggle Code Practice 3 (3.4-3.9)</title>
 
-  <!-- CodeTailor study: one experiment name (csa-u3-ct) puts each student in   -->
-  <!-- one group for the whole page. The question order alternates, so group 0 -->
-  <!-- gets personalized help on problems 1, 3, 5 and static help on 2, 4;     -->
-  <!-- group 1 gets the reverse. Every student sees both kinds of help.        -->
   <p>
     Write your own solution for each problem below and click Run to check it.
     If you get stuck, click the <em>Pathfinder</em> button (the compass) on the
     problem for step-by-step hints and a mixed up code puzzle that can help you finish.
   </p>
 
-  <exercise label="u3-toggle1">
+  <exercise label="u3_ct_wc1" xml:id="u3_ct_wc1">
     <title>Constructors and toString</title>
-    <select grade="ab-experiment" experiment-name="csa-u3-ct"
-            questions="u3_ct_wc1 u3_ct_wc1-ct-static"/>
-  </exercise>
 
-  <query label="u3-ct-1-cl-poll">
     <statement>
       <p>
-        How closely does the provided solution in <q>Get Help</q> align with
-        your initial idea for a solution?
+        Write a constructor for the <c>Student</c> class. It takes a <c>name</c> (a <c>String</c>), a <c>grade</c> (an <c>int</c>), and a <c>gpa</c> (a <c>double</c>), in that order, and sets the matching instance variables. Then write a <c>toString</c> method that returns the student's information in the form <c>name (grade grade): gpa</c>, for example <c>Ana (grade 10): 3.8</c>.
       </p>
     </statement>
-    <choices>
-      <choice><p>1 (very low alignment)</p></choice>
-      <choice><p>2</p></choice>
-      <choice><p>3</p></choice>
-      <choice><p>4</p></choice>
-      <choice><p>5 (very high alignment)</p></choice>
-      <choice><p>I did not have an initial idea for a solution before getting help</p></choice>
-      <choice><p>I did not use <q>Get Help</q> for this problem</p></choice>
-    </choices>
-  </query>
 
-  <exercise label="u3-toggle2">
+    <program interactive="activecode" language="java" label="u3_ct_wc1-prog" xml:id="u3_ct_wc1-prog"
+             codetailor="all" codetailor-fallback="u3_ct_muc1">
+      <code>
+public class Student
+{
+    private String name;
+    private int grade;
+    private double gpa;
+
+    // YOUR CODE HERE
+
+    public static void main(String[] args)
+    {
+        Student s = new Student("Ana", 10, 3.8);
+        System.out.println(s);
+    }
+}
+      </code>
+      <tests>
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
+import java.io.*;
+
+public class RunestoneTests extends CodeTestHelper
+{
+    public RunestoneTests()
+    {
+        super("Student");
+    }
+
+    @Test
+    public void testMain()
+    {
+        String output = getMethodOutput("main");
+        String expect = "Ana (grade 10): 3.8";
+        boolean passed = getResults(expect, output, "Expected output from main");
+        assertTrue(passed);
+    }
+
+    @Test
+    public void testToString1()
+    {
+        Object[] args = {"Ben", 9, 2.5};
+        setDefaultValues(args);
+        String output = "" + getMethodOutput("toString");
+        boolean passed = getResults("Ben (grade 9): 2.5", output, "toString() with constructor arguments {\"Ben\", 9, 2.5}");
+        assertTrue(passed);
+    }
+}
+
+      </tests>
+    </program>
+  </exercise>
+
+  <exercise label="u3_ct_wc2" xml:id="u3_ct_wc2">
     <title>Methods that return a value</title>
-    <select grade="ab-experiment" experiment-name="csa-u3-ct"
-            questions="u3_ct_wc2-ct-static u3_ct_wc2"/>
-  </exercise>
 
-  <query label="u3-ct-2-cl-poll">
     <statement>
       <p>
-        How closely does the provided solution in <q>Get Help</q> align with
-        your initial idea for a solution?
+        Write a <c>getPrice</c> method for the <c>Ticket</c> class. It returns <c>5</c> if <c>age</c> is under 12, and <c>10</c> otherwise.
       </p>
     </statement>
-    <choices>
-      <choice><p>1 (very low alignment)</p></choice>
-      <choice><p>2</p></choice>
-      <choice><p>3</p></choice>
-      <choice><p>4</p></choice>
-      <choice><p>5 (very high alignment)</p></choice>
-      <choice><p>I did not have an initial idea for a solution before getting help</p></choice>
-      <choice><p>I did not use <q>Get Help</q> for this problem</p></choice>
-    </choices>
-  </query>
 
-  <exercise label="u3-toggle3">
+    <program interactive="activecode" language="java" label="u3_ct_wc2-prog" xml:id="u3_ct_wc2-prog"
+             codetailor="all" codetailor-fallback="u3_ct_muc2">
+      <code>
+public class Ticket
+{
+    private int age;
+
+    public Ticket(int age)
+    {
+        this.age = age;
+    }
+
+    // YOUR CODE HERE
+
+    public static void main(String[] args)
+    {
+        System.out.println(new Ticket(8).getPrice());
+        System.out.println(new Ticket(12).getPrice());
+        System.out.println(new Ticket(40).getPrice());
+    }
+}
+      </code>
+      <tests>
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
+import java.io.*;
+
+public class RunestoneTests extends CodeTestHelper
+{
+    public RunestoneTests()
+    {
+        super("Ticket");
+    }
+
+    @Test
+    public void testMain()
+    {
+        String output = getMethodOutput("main");
+        String expect = "5\n10\n10";
+        boolean passed = getResults(expect, output, "Expected output from main");
+        assertTrue(passed);
+    }
+
+    @Test
+    public void testGetPrice1()
+    {
+        Object[] args = {11};
+        setDefaultValues(args);
+        String output = "" + getMethodOutput("getPrice");
+        boolean passed = getResults("5", output, "getPrice() with constructor arguments {11}");
+        assertTrue(passed);
+    }
+
+    @Test
+    public void testGetPrice2()
+    {
+        Object[] args = {65};
+        setDefaultValues(args);
+        String output = "" + getMethodOutput("getPrice");
+        boolean passed = getResults("10", output, "getPrice() with constructor arguments {65}");
+        assertTrue(passed);
+    }
+}
+
+      </tests>
+    </program>
+  </exercise>
+
+  <exercise label="u3_ct_wc3" xml:id="u3_ct_wc3">
     <title>Methods that change an object</title>
-    <select grade="ab-experiment" experiment-name="csa-u3-ct"
-            questions="u3_ct_wc3 u3_ct_wc3-ct-static"/>
-  </exercise>
 
-  <query label="u3-ct-3-cl-poll">
     <statement>
       <p>
-        How closely does the provided solution in <q>Get Help</q> align with
-        your initial idea for a solution?
+        Write a <c>withdraw</c> method for the <c>BankAccount</c> class. It takes an <c>int</c> <c>amount</c>. If the account has at least that much money, subtract <c>amount</c> from <c>balance</c>. Otherwise, leave <c>balance</c> unchanged.
       </p>
     </statement>
-    <choices>
-      <choice><p>1 (very low alignment)</p></choice>
-      <choice><p>2</p></choice>
-      <choice><p>3</p></choice>
-      <choice><p>4</p></choice>
-      <choice><p>5 (very high alignment)</p></choice>
-      <choice><p>I did not have an initial idea for a solution before getting help</p></choice>
-      <choice><p>I did not use <q>Get Help</q> for this problem</p></choice>
-    </choices>
-  </query>
 
-  <exercise label="u3-toggle4">
+    <program interactive="activecode" language="java" label="u3_ct_wc3-prog" xml:id="u3_ct_wc3-prog"
+             codetailor="all" codetailor-fallback="u3_ct_muc3">
+      <code>
+public class BankAccount
+{
+    private int balance;
+
+    public BankAccount(int balance)
+    {
+        this.balance = balance;
+    }
+
+    public int getBalance()
+    {
+        return balance;
+    }
+
+    // YOUR CODE HERE
+
+    public static void main(String[] args)
+    {
+        BankAccount acct = new BankAccount(100);
+        acct.withdraw(30);
+        System.out.println(acct.getBalance());
+        acct.withdraw(200);
+        System.out.println(acct.getBalance());
+        acct.withdraw(70);
+        System.out.println(acct.getBalance());
+    }
+}
+      </code>
+      <tests>
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
+import java.io.*;
+
+public class RunestoneTests extends CodeTestHelper
+{
+    public RunestoneTests()
+    {
+        super("BankAccount");
+    }
+
+    @Test
+    public void testMain()
+    {
+        String output = getMethodOutput("main");
+        String expect = "70\n70\n0";
+        boolean passed = getResults(expect, output, "Expected output from main");
+        assertTrue(passed);
+    }
+}
+
+      </tests>
+    </program>
+  </exercise>
+
+  <exercise label="u3_ct_wc4" xml:id="u3_ct_wc4">
     <title>Objects as parameters and this</title>
-    <select grade="ab-experiment" experiment-name="csa-u3-ct"
-            questions="u3_ct_wc4-ct-static u3_ct_wc4"/>
-  </exercise>
 
-  <query label="u3-ct-4-cl-poll">
     <statement>
       <p>
-        How closely does the provided solution in <q>Get Help</q> align with
-        your initial idea for a solution?
+        Write two methods for the <c>Rectangle</c> class. <c>getArea</c> returns <c>width</c> times <c>height</c>. <c>isLargerThan</c> takes another <c>Rectangle</c> and returns <c>true</c> if this rectangle's area is larger than the other rectangle's area.
       </p>
     </statement>
-    <choices>
-      <choice><p>1 (very low alignment)</p></choice>
-      <choice><p>2</p></choice>
-      <choice><p>3</p></choice>
-      <choice><p>4</p></choice>
-      <choice><p>5 (very high alignment)</p></choice>
-      <choice><p>I did not have an initial idea for a solution before getting help</p></choice>
-      <choice><p>I did not use <q>Get Help</q> for this problem</p></choice>
-    </choices>
-  </query>
 
-  <exercise label="u3-toggle5">
+    <program interactive="activecode" language="java" label="u3_ct_wc4-prog" xml:id="u3_ct_wc4-prog"
+             codetailor="all" codetailor-fallback="u3_ct_muc4">
+      <code>
+public class Rectangle
+{
+    private int width;
+    private int height;
+
+    public Rectangle(int width, int height)
+    {
+        this.width = width;
+        this.height = height;
+    }
+
+    // YOUR CODE HERE
+
+    public static void main(String[] args)
+    {
+        Rectangle a = new Rectangle(4, 5);
+        Rectangle b = new Rectangle(3, 6);
+        System.out.println(a.getArea());
+        System.out.println(a.isLargerThan(b));
+        System.out.println(b.isLargerThan(a));
+    }
+}
+      </code>
+      <tests>
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
+import java.io.*;
+
+public class RunestoneTests extends CodeTestHelper
+{
+    public RunestoneTests()
+    {
+        super("Rectangle");
+    }
+
+    @Test
+    public void testMain()
+    {
+        String output = getMethodOutput("main");
+        String expect = "20\ntrue\nfalse";
+        boolean passed = getResults(expect, output, "Expected output from main");
+        assertTrue(passed);
+    }
+
+    @Test
+    public void testGetArea1()
+    {
+        Object[] args = {2, 7};
+        setDefaultValues(args);
+        String output = "" + getMethodOutput("getArea");
+        boolean passed = getResults("14", output, "getArea() with constructor arguments {2, 7}");
+        assertTrue(passed);
+    }
+}
+
+      </tests>
+    </program>
+  </exercise>
+
+  <exercise label="u3_ct_wc5" xml:id="u3_ct_wc5">
     <title>Static variables and methods</title>
-    <select grade="ab-experiment" experiment-name="csa-u3-ct"
-            questions="u3_ct_wc5 u3_ct_wc5-ct-static"/>
-  </exercise>
 
-  <query label="u3-ct-5-cl-poll">
     <statement>
       <p>
-        How closely does the provided solution in <q>Get Help</q> align with
-        your initial idea for a solution?
+        Every <c>PizzaOrder</c> shares the same price per slice, stored in the static variable <c>pricePerSlice</c>. Write a static method <c>setPricePerSlice</c> that takes a <c>double</c> <c>price</c> and changes <c>pricePerSlice</c> to it. Then write a <c>getTotal</c> method that returns the order's total cost: <c>slices</c> times <c>pricePerSlice</c>.
       </p>
     </statement>
-    <choices>
-      <choice><p>1 (very low alignment)</p></choice>
-      <choice><p>2</p></choice>
-      <choice><p>3</p></choice>
-      <choice><p>4</p></choice>
-      <choice><p>5 (very high alignment)</p></choice>
-      <choice><p>I did not have an initial idea for a solution before getting help</p></choice>
-      <choice><p>I did not use <q>Get Help</q> for this problem</p></choice>
-    </choices>
-  </query>
+
+    <program interactive="activecode" language="java" label="u3_ct_wc5-prog" xml:id="u3_ct_wc5-prog"
+             codetailor="all" codetailor-fallback="u3_ct_muc5">
+      <code>
+public class PizzaOrder
+{
+    private int slices;
+    private static double pricePerSlice = 2.0;
+
+    public PizzaOrder(int slices)
+    {
+        this.slices = slices;
+    }
+
+    // YOUR CODE HERE
+
+    public static void main(String[] args)
+    {
+        PizzaOrder small = new PizzaOrder(2);
+        PizzaOrder large = new PizzaOrder(6);
+        PizzaOrder.setPricePerSlice(2.5);
+        System.out.println(small.getTotal());
+        System.out.println(large.getTotal());
+        PizzaOrder.setPricePerSlice(3.0);
+        System.out.println(small.getTotal());
+        System.out.println(large.getTotal());
+    }
+}
+      </code>
+      <tests>
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
+import java.io.*;
+
+public class RunestoneTests extends CodeTestHelper
+{
+    public RunestoneTests()
+    {
+        super("PizzaOrder");
+    }
+
+    @Test
+    public void testMain()
+    {
+        String output = getMethodOutput("main");
+        String expect = "5.0\n15.0\n6.0\n18.0";
+        boolean passed = getResults(expect, output, "Expected output from main");
+        assertTrue(passed);
+    }
+}
+
+      </tests>
+    </program>
+  </exercise>
+
 </section>
