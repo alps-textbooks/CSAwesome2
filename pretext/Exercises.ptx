@@ -4,11 +4,6 @@
   <title>Quiz Bank Exercises Unit</title>
   <section xml:id="Exercises">
   <title>Quiz Bank Exercises</title>
-  <p>
-    The quiz bank is available for instructors to use under the Instructor's
-    page in Runestone custom courses. Instructors should choose this chapter
-    when making new exercises.
-  </p>
 </section>
 
 <xi:include href="Unit1-Using-Objects-and-Methods/unit1a-practice-mixed-code.ptx"/>

@@ -172,7 +172,7 @@ public class Person
       method runs but when it gets the values of <c>name</c>, <c>email</c>, and
       <c>phoneNumber</c> it gets the specific values of those variables that
       were set by the constructor when the particular object we called
-      <c>print</c> on was created. Click on the Show CodeLens button below and
+      <c>print</c> on was created. Click on the CodeLens tab below and
       the Next button to run the code step by step.
     </p>
 
@@ -181,7 +181,7 @@ public class Person
         <p>
           The following Person class keeps track of the name, email, and phone
           number of a person. Try changing the Person p2 object in the main
-          method to your name. Click on the Show CodeLens button and then Next
+          method to your name. Click on the CodeLens tab and then Next
           to step through the code.
         </p>
       </statement>
@@ -886,9 +886,8 @@ public class RunestoneTests extends CodeTestHelper
       to your community. You will improve the class in each lesson of this unit.
       We suggest that you work in pairs on this project. If you would rather
       work on this project as 1 stand-alone lab project rather than a piece at a
-      time at the end of each lesson, you can do this in this <url
-      href="community-challenge.html"
-      visual="community-challenge.html">lesson</url> at the end of the unit.
+      time at the end of each lesson, you can do this in the Community Challenge
+      lesson at the end of the unit.
     </p>
 
     <p>

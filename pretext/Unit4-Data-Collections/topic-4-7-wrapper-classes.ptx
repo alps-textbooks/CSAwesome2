@@ -179,7 +179,7 @@ int number = i; // unboxing - back to primitive type
       <statement>
         <p>
           Drag the definition from the left and drop it on the correct word on
-          the right. Click the "Check Me" button to see if you are correct.
+          the right. Click the "Check" button to see if you are correct.
         </p>
       </statement>
 

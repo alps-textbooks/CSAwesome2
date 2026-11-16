@@ -276,7 +276,7 @@ public class RunestoneTests extends CodeTestHelper
       <statement>
         <p>
           Drag the definition from the left and drop it on the correct word on
-          the right. Click the "Check Me" button to see if you are correct.
+          the right. Click the "Check" button to see if you are correct.
         </p>
       </statement>
 
@@ -480,7 +480,7 @@ public class RunestoneTests extends CodeTestHelper
           The following code uses a turtle to draw a simple house, but the lines
           are mixed up. Drag the code blocks to the right and put them in the
           correct order to first draw a square for the house and then a red
-          triangle for the roof. Click on the “Check Me” button to check your
+          triangle for the roof. Click on the “Check” button to check your
           solution. You can type this code in the Active Code window above to
           see it in action.
         </p>
@@ -791,7 +791,7 @@ public class RunestoneTests extends CodeTestHelper
 
     <p>
       We will save a deeper discussion of actually writing getters and other
-      methods until Unit 3, but for the AP progress checks for this unit, you
+      methods until Unit 3, but for this unit, you
       should be able to trace through method calls like the ones below. Notice
       that the <term>return statement</term> in a method returns the value, and
       it must match declared return type of the method. The calling method must

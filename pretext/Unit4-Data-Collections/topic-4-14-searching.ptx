@@ -81,8 +81,8 @@
       through the array or <c>ArrayList</c> until it finds the value it is
       looking for and returns its index. If it reaches the end of the array or
       list without finding the value, the search method usually returns a -1 to
-      show that it didn’t find the value in the array or list. Click on <em>Show
-      CodeLens</em> below to see linear search in action.
+      show that it didn’t find the value in the array or list. Click on the <em>CodeLens</em>
+      tab below to see linear search in action.
     </p>
 
     <activity label="seqSearch">

@@ -734,8 +734,7 @@ factorial(0) returns 1
 
     <p>
       Another way to see the call stack in action is to download and use the
-      Jeloit software (see <url href="http://cs.joensuu.fi/jeliot/"
-      visual="http://cs.joensuu.fi/jeliot/">http://cs.joensuu.fi/jeliot/</url>).
+      Jeliot software.
     </p>
 
     <figure align="center">

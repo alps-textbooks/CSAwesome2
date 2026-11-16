@@ -1097,7 +1097,7 @@ public class RunestoneTests extends CodeTestHelper
       <statement>
         <p>
           Drag the definition from the left and drop it on the correct concept
-          on the right. Click the "Check Me" button to see if you are correct
+          on the right. Click the "Check" button to see if you are correct
         </p>
       </statement>
 
@@ -1135,7 +1135,7 @@ public class RunestoneTests extends CodeTestHelper
       <statement>
         <p>
           Drag the definition from the left and drop it on the correct method on
-          the right. Click the "Check Me" button to see if you are correct.
+          the right. Click the "Check" button to see if you are correct.
         </p>
       </statement>
 
@@ -1351,9 +1351,7 @@ public class RunestoneTests extends CodeTestHelper
     </p>
 
     <p>
-      Your teacher may ask you to create this program in a Java IDE that can use input to read in the word, for example in <url
-      href="https://play.juicemind.com/csawesome2/challenge-PigLatin"
-      visual="https://play.juicemind.com/csawesome2/challenge-PigLatin">JuiceMind IDE</url> using the Scanner class.
+      Your teacher may ask you to create this program in a Java IDE that can use input to read in the word using the Scanner class.
     </p>
 
     <project label="challenge-PigLatin">
@@ -1780,46 +1778,4 @@ String s3 = s2.toLowerCase();
     <interactive iframe="iframe/csagames.html" width="95%" aspect="1:1" />
   </subsection>
 
-  <subsection xml:id="progresscheck-unit1C">
-    <title>Review/Practice for Unit 1 on Using Objects</title>
-    <p>
-      This lesson ends Unit 1 and the second half of the unit on using objects. You can
-      now do the following review and practice lessons at the end of the unit
-      and College Board Progress Checks B and C for Unit 1 in the AP Classroom.
-      Please do the practice test on objects and the FRQ practice below before
-      you do the AP Classroom Progress Check C.
-    </p>
-
-    <p>
-      <ul>
-        <li>
-          <url href="unit1b-summary.html" visual="unit1b-summary.html">Unit 1b Summary</url>
-        </li>
-
-        <li>
-          <url href="unit1b-practice-toggle-code.html" visual="unit1b-practice-toggle-code.html">Unit 1b Practice Toggle Code</url>
-        </li>
-
-        <li>
-          <url href="unit1b-practice-coding.html" visual="unit1b-practice-coding.html">Unit 1b Practice Coding</url>
-        </li>
-
-        <li>
-          <url href="Exercises-objects.html" visual="Exercises-objects.html">Exercises on Objects</url>
-        </li>
-
-        <li>
-          <url href="practice-test-objects.html" visual="practice-test-objects.html">Practice Test on Objects</url>
-        </li>
-
-        <li>
-          <url href="JavaSwingGUIs.html" visual="JavaSwingGUIs.html">Optional Java Swing GUIs</url>
-        </li>
-
-        <li>
-          <url href="frq-practice.html" visual="frq-practice.html">Unit 1 FRQ Practice</url>
-        </li>
-      </ul>
-    </p>
-  </subsection>
 </section>

@@ -130,7 +130,7 @@ while (s.indexOf("a") &gt;= 0)
         <p>
           The following program removes all the a’s from a string, but the code
           is mixed up. Drag the blocks from the left area into the correct order
-          in the right area. Click on the “Check Me” button to check your
+          in the right area. Click on the “Check” button to check your
           solution.
         </p>
       </statement>
@@ -320,7 +320,7 @@ for(int i=0; i &lt; s.length(); i++)
           The following main method has the correct code to count the number of
           e’s in a string, but the code is mixed up. Drag the blocks from the
           left area into the correct order in the right area. Click on the
-          “Check Me” button to check your solution.
+          “Check” button to check your solution.
         </p>
       </statement>
 

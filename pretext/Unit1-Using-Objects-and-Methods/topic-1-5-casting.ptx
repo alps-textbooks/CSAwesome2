@@ -760,12 +760,7 @@ public class RunestoneTests extends CodeTestHelper
       challenge so that you can use input to get these values using the <url
       href="https://www.w3schools.com/java/java_user_input.asp"
       visual="https://www.w3schools.com/java/java_user_input.asp">Scanner
-      class</url>, for example with this <url
-      href="https://play.juicemind.com/csawesome2/challenge-1-5-average"
-      visual="https://play.juicemind.com/csawesome2/challenge-1-5-average">JuiceMind IDE</url> or <url
-      href="https://replit.com/@BerylHoffman/Challenge1-6-Average-Template#Main.java"
-      visual="https://replit.com/@BerylHoffman/Challenge1-6-Average-Template#Main.java">replit template</url> that you can use if you want to
-      try the challenge with input.
+      class</url>.
     </p>
   </subsection>
 

@@ -255,10 +255,7 @@
 
     <interactive iframe="iframe/colorpicker.html" width="100%" aspect="1:1" />
     <p>
-      In Java, there is a ColorChooser that you can use in code, see <url
-      href="https://replit.com/@BerylHoffman/ColorChooser"
-      visual="https://replit.com/@BerylHoffman/ColorChooser">https://replit.com/@BerylHoffman/ColorChooser</url>
-      and click on the RGB tab. Java represents color using the java.awt.Color
+      In Java, there is a ColorChooser that you can use in code. Java represents color using the java.awt.Color
       class described here <url
       href="https://docs.oracle.com/en/java/javase/22/docs/api/java.desktop/java/awt/Color.html">https://docs.oracle.com/en/java/javase/22/docs/api/java.desktop/java/awt/Color.html</url>.
       This is the full name for the Color class, which includes the package name
@@ -311,13 +308,12 @@
   <subsection xml:id="a3-exploring-a-picture">
     <title>A3: Exploring a Picture</title>
     <p>
-      Try the following PictureExplorer Java program at <url
-      href="https://replit.com/@BerylHoffman/PictureExplorer"
-      visual="https://replit.com/@BerylHoffman/PictureExplorer">https://replit.com/@BerylHoffman/PictureExplorer</url>
-      or try this site <url href="https://imagecolorpicker.com/"
+      Try this site <url href="https://imagecolorpicker.com/"
       visual="https://imagecolorpicker.com/">https://imagecolorpicker.com/</url>
       where you can upload your own images and explore their RGB values. In the
-      replit code, you can click on pixels in the image to see their RGB values
+      PictureExplorer program in the <url
+      href="https://github.com/bhoffman0/CSAwesome2/tree/main/_static/PictureLab.zip">Picture
+      Lab Java code files</url>, you can click on pixels in the image to see their RGB values
       and their row and column indices in the 2D array for the image. You can
       use the explorer tool to explore the pixels in a picture. Click any
       location (pixel) in the picture and it will display the row index, column

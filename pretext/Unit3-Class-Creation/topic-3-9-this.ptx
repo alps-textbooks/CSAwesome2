@@ -15,7 +15,7 @@
       and call the constructor or p1.setEmail(), the word “this” refers to p1.
       And when we make the same method calls with object p2, “this” refers to
       p2. Run the code below and also check it out in the Java visualizer with
-      the Show CodeLens button which shows how this refers to different objects
+      the CodeLens tab which shows how this refers to different objects
       when the code is run.
     </p>
 
@@ -177,7 +177,7 @@ public Person(String name)
       declares an <c>Overtime</c> object and passes in <c>this</c> (the current
       <c>Pay</c> object) to its constructor which computes the overtime with
       respect to that <c>Pay</c> object. Try this code in the active code
-      exercise below with the Show CodeLens button to trace through it step by
+      exercise below with the CodeLens tab to trace through it step by
       step. Here is an image that shows how <c>this</c>, <c>myPay</c> and
       <c>p</c> all refer to the same object in memory.
     </p>
@@ -189,8 +189,8 @@ public Person(String name)
     <activity label="PayClassThis">
       <statement>
         <p>
-          What does this code print out? Trace through the code with the Show
-          CodeLens button. Notice how the this Pay object is passed to the
+          What does this code print out? Trace through the code with the
+          CodeLens tab. Notice how the this Pay object is passed to the
           Overtime constructor.
         </p>
       </statement>
@@ -768,13 +768,4 @@ System.out.println(j.getTotalTemp());
     </activity>
   </subsection>
 
-  <subsection xml:id="progresscheck-u3-partB">
-    <title>AP Classroom Progress Check Unit 3 Part B</title>
-    <p>
-      This lesson ends the section for the College Board Unit 3 part 2. You
-      should now do the review and practice lessons at the end of this unit and
-      then do the College Board Progress Check for Unit 3 Part B and the Virtual Pet Lab
-      in the AP Classroom.
-    </p>
-  </subsection>
 </section>

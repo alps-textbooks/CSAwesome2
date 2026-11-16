@@ -173,9 +173,7 @@ z = 3;
           not needed in a correct solution. Drag the needed blocks from the left
           into the correct order on the right. Check your solution by clicking
           on the Check button. You will be told if any of the blocks are in the
-          wrong order or if you need to remove one or more blocks. After three
-          incorrect attempts you will be able to use the Help Me button to make
-          the problem easier.
+          wrong order or if you need to remove one or more blocks.
         </p>
       </statement>
 
@@ -416,18 +414,7 @@ public class RunestoneTests extends CodeTestHelper
       and for the newer <c>Console</c> class, <url
       href="https://howtodoinjava.com/java-examples/console-input-output/"
       visual="https://howtodoinjava.com/java-examples/console-input-output/">https://howtodoinjava.com/java-examples/console-input-
-      output/</url>. We are limited with the one way communication with the Java
-      server in this Runestone ebook, but in most IDEs, the input/output would
-      be more interactive.       You can try this <url
-      href="https://play.juicemind.com/csawesome2/inputName"
-      visual="https://play.juicemind.com/csawesome2/inputName">JuiceMind IDE</url> (click on Create Starter Code after login
-      with a Google account) or <url
-      href="https://replit.com/@BerylHoffman/JavaIOExample"
-      visual="https://replit.com/@BerylHoffman/JavaIOExample">Scanner input
-      example in Replit</url> using the <c>Scanner</c> class and <url
-      href="https://replit.com/@BerylHoffman/JavaIOConsole"
-      visual="https://replit.com/@BerylHoffman/JavaIOConsole">Console input
-      example</url> using the <c>Console</c> class. We will also learn how to
+      output/</url>. We will also learn how to
       use <c>Scanner</c> with input files in a later unit.
     </p>
   </subsection>
@@ -573,11 +560,7 @@ public class RunestoneTests extends CodeTestHelper {
       Your teacher may suggest that you use a Java IDE with interactive input
       using the <url href="https://www.w3schools.com/java/java_user_input.asp"
       visual="https://www.w3schools.com/java/java_user_input.asp">Scanner
-      class</url> for this challenge, for example this <url
-      href="https://play.juicemind.com/csawesome2/challenge1-4"
-      visual="https://play.juicemind.com/csawesome2/challenge1-4">JuiceMind IDE</url> or <url
-      href="https://replit.com/@BerylHoffman/Challenge1-4-Dog-Years-Template"
-      visual="https://replit.com/@BerylHoffman/Challenge1-4-Dog-Years-Template">repl template</url> if you want to try the challenge with input.
+      class</url> for this challenge if you want to try the challenge with input.
     </p>
   </subsection>
 
@@ -712,14 +695,4 @@ System.out.println(d);
     </activity>
   </subsection>
 
-  <subsection xml:id="progresscheck-unit1A">
-    <title>AP Classroom Progress Check Unit 1 Part A</title>
-    <p>
-      This lesson ends the section for the College Board Unit 1 part A. You can
-      now do the College Board Progress Check A for Unit 1 in the AP
-      Classroom. Or you can choose to wait until after lesson 1.6 where you will
-      find links to the end of unit practice and review which will help you to
-      prepare for the progress check.
-    </p>
-  </subsection>
 </section>

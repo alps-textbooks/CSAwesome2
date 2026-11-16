@@ -5,10 +5,9 @@
   <p>
     Sometimes you only want to mirror part of a picture. For example, Figure 1
     shows a temple in Greece that is missing a part of the roof called the
-    pediment. You can use the <url
-    href="https://replit.com/@BerylHoffman/PictureExplorer"
-    visual="https://replit.com/@BerylHoffman/PictureExplorer">Picture Explorer
-    Repl</url> to find the area that you want to mirror in temple.jpg to produce
+    pediment. You can use the PictureExplorer program in the <url
+    href="https://github.com/bhoffman0/CSAwesome2/tree/main/_static/PictureLab.zip">Picture
+    Lab Java code files</url> to find the area that you want to mirror in temple.jpg to produce
     the picture on the right. If you do this you will find that you can mirror
     the rows from 27 to 96 (inclusive) and the columns from 13 to 275
     (inclusive). You can change the starting and ending points for the row and
@@ -527,10 +526,10 @@ public class RunestoneTests extends CodeTestHelper
       <li>
         <p>
           Write the method <c>mirrorArms</c> to mirror the arms on the
-          snowperson (“snowperson.jpg”) to make a snowperson with 4 arms. Fork
-          <url href="https://replit.com/@BerylHoffman/PictureExplorer"
-          visual="https://replit.com/@BerylHoffman/PictureExplorer">Picture
-          Explorer Repl</url> and change it to explore snowperson.jpg and find
+          snowperson (“snowperson.jpg”) to make a snowperson with 4 arms. Open
+          snowperson.jpg in the PictureExplorer program in the <url
+          href="https://github.com/bhoffman0/CSAwesome2/tree/main/_static/PictureLab.zip">Picture
+          Lab Java code files</url> to find
           out the pixel coordinates to start and end the mirroring and the
           mirror point.
         </p>
@@ -713,9 +712,9 @@ public class RunestoneTests extends CodeTestHelper
   <p>
     3. Write the method <c>mirrorGull</c> to mirror the seagull (“seagull.jpg”)
     to the right so that there are two seagulls on the beach near each other.
-    Fork <url href="https://replit.com/@BerylHoffman/PictureExplorer"
-    visual="https://replit.com/@BerylHoffman/PictureExplorer">Picture Explorer
-    Repl</url> and change it to explore seagull.jpg and find out the pixel
+    Open seagull.jpg in the PictureExplorer program in the <url
+    href="https://github.com/bhoffman0/CSAwesome2/tree/main/_static/PictureLab.zip">Picture
+    Lab Java code files</url> to find out the pixel
     coordinates to start and end the mirroring and the mirror point.
   </p>
 

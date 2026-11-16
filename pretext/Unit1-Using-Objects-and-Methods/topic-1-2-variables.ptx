@@ -812,7 +812,7 @@ public class RunestoneTests extends CodeTestHelper
           insurance or not. It also includes extra blocks that are not needed in
           a correct solution. Drag the needed blocks from the left area into the
           correct order (declaring numVisits, temp, and hasInsurance in that
-          order) in the right area. Click on the “Check Me” button to check your
+          order) in the right area. Click on the “Check” button to check your
           solution.
         </p>
       </statement>
@@ -1117,9 +1117,7 @@ public class RunestoneTests extends CodeTestHelper
     <p>
       Then, working in pairs, come up with another silly story that uses at
       least 5 new String variables. When you're done, try another team's mad
-      libs code. Your teacher may ask you to create this program in a Java IDE that can do input for example this <url
-      href="https://play.juicemind.com/csawesome2/challengeMadLibs"
-      visual="https://play.juicemind.com/csawesome2/challengeMadLibs">JuiceMind IDE</url> using the <url
+      libs code. Your teacher may ask you to create this program in a Java IDE that can do input using the <url
       href="https://www.w3schools.com/java/java_user_input.asp"
       visual="https://www.w3schools.com/java/java_user_input.asp">Scanner
       class</url> to read in input into the variables.

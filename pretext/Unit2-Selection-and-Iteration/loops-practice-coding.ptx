@@ -227,8 +227,7 @@ public class RunestoneTests extends CodeTestHelper
         The following code should print the values from 1 to 10 (inclusive) but
         has errors. Fix the errors so that the code works as intended. If the
         code is in an infinite loop you can refresh the page in the browser to
-        stop the loop and then click on Load History and move the bar above it
-        to see your last changes.
+        stop the loop.
       </p>
     </statement>
 

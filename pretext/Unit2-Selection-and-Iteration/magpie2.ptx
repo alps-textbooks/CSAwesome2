@@ -120,15 +120,6 @@ public class Magpie2
     </program>
 
     <p>
-      You can also run a version of the Magpie lab on this <url
-      href="https://play.juicemind.com/csawesome2/lc-magpie2"
-      visual="https://play.juicemind.com/csawesome2/lc-magpie2">JuiceMind IDE</url> or on <url
-      href="https://replit.com/@BerylHoffman/Magpie-ChatBot-Lab-v2#Main.java"
-      visual="https://replit.com/@BerylHoffman/Magpie-ChatBot-Lab-v2#Main.java">replit.com</url> that uses the Scanner class for input so that you
-      can type in your own input to interact with it.
-    </p>
-
-    <p>
       As you can see the <c>getResponse</c> method of Magpie2 looks for certain
       keywords like <c>"mother"</c> and <c>"brother"</c>. Why do you think the
       response to “Do you know my brother?” isn’t “Tell me more about your
@@ -366,16 +357,12 @@ public class Magpie2
     </p>
 
     <p>
-      Here is the actual code for the <url
-      href="https://replit.com/@BerylHoffman/Magpie-ChatBot-Lab-v2#Main.java"
-      visual="https://replit.com/@BerylHoffman/Magpie-ChatBot-Lab-v2#Main.java">Magpie
-      lab on replit.com</url>. It uses the <c>Scanner</c> class to read input
-      from the user. The <c>Scanner</c> class is not on the AP CSA exam. You can
-      log in to replit.com and use this code and change it to do this lab.
+      The actual code uses the <c>Scanner</c> class to read input
+      from the user. The <c>Scanner</c> class is not on the AP CSA exam.
     </p>
 
     <p>
-      Or you can copy and paste in the code from below into any Integrated
+      You can copy and paste in the code from below into any Integrated
       Development Environment (IDE) like DrJava or JGrasp to run on your
       computer.
     </p>

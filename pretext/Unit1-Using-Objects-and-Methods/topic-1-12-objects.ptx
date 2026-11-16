@@ -145,7 +145,7 @@ Turtle myrtle;
       <statement>
         <p>
           Drag the definition from the left and drop it on the correct concept
-          on the right. Click the "Check Me" button to see if you are correct.
+          on the right. Click the "Check" button to see if you are correct.
         </p>
       </statement>
 
@@ -353,11 +353,7 @@ Turtle myrtle;
     </p>
     <p>
       If the code below is too slow in your
-      browser, you can also see the <c>Turtle</c> code in action on 
-      <url href="https://play.juicemind.com/csawesome2/Java-Swing-Turtle">
-      JuiceMind IDE</url>, <url href="https://codehs.com/sandbox/id/turtlejavaswingcode-dSHrzr">CodeHS Sandbox</url>, <url
-      href="https://replit.com/@BerylHoffman/Java-Swing-Turtle#Main.java">replit</url>,
-      or <url
+      browser, you can <url
       href="https://github.com/bhoffman0/CSAwesome2/raw/main/_sources/Unit1-Using-Objects-and-Methods/TurtleJavaSwingCode.zip">download the files</url>
       to use in your own IDE.
     </p>
@@ -673,7 +669,7 @@ public class RunestoneTests extends CodeTestHelper
           to the right and put them in the correct order to first draw the line
           going up (towards the top of the page) and then turn and draw a line
           to the left to make a 7. Remember that the turtle is facing the top of
-          the page when it is first created. Click on the “Check Me” button to
+          the page when it is first created. Click on the “Check” button to
           check your solution.
         </p>
       </statement>
@@ -1080,8 +1076,7 @@ public class RunestoneTests extends CodeTestHelper
   <subsection xml:id="ap-practice-2">
     <title>AP Practice</title>
     <p>
-      Try these AP practice questions that will help to prepare you for the AP
-      Classroom progress checks.
+      Try these AP practice questions.
     </p>
 
     <activity label="AP-attributes">

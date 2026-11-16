@@ -555,7 +555,7 @@ public class RunestoneTests extends CodeTestHelper
       <c>Student</c> object. The <c>toString</c> method will return a
       <c>String</c> that is then printed out. Watch how the control moves to the
       <c>toString</c> method and then comes back to <c>main</c> in the Java
-      visualizer by using the Show CodeLens button.
+      visualizer by using the CodeLens tab.
     </p>
 
     <activity label="StudentToString">
@@ -1371,10 +1371,8 @@ public class TesterClass
         <li>
           <p>
             Copy your class with its 3 instance variables, constructor, and its
-            print() and main methods from <url
-            href="topic-3-4-constructors.html#groupwork-design-a-class-for-your-community"
-            visual="topic-3-4-constructors.html#groupwork-design-a-class-for-your-community">lesson
-            3.4</url> into the active code exercise below.
+            print() and main methods from lesson
+            3.4 into the active code exercise below.
           </p>
         </li>
 
@@ -1416,10 +1414,8 @@ public class TesterClass
     <project label="community-challenge3">
       <statement>
         <p>
-          Copy your class from <url
-          href="topic-3-4-constructors.html#groupwork-design-a-class-for-your-community"
-          visual="topic-3-4-constructors.html#groupwork-design-a-class-for-your-community">lesson
-          3.4</url>. Add get, set, toString, and a method that takes a
+          Copy your class from lesson
+          3.4. Add get, set, toString, and a method that takes a
           parameter. For example, there could be a print method with arguments
           that indicate how you want to print out the information, print(format)
           where format is “plain” or “table”.
@@ -1682,7 +1678,7 @@ public class RunestoneTests extends CodeTestHelper
       <statement>
         <p>
           Drag the definition from the left and drop it on the correct word on
-          the right. Click the "Check Me" button to see if you are correct.
+          the right. Click the "Check" button to see if you are correct.
         </p>
       </statement>
 

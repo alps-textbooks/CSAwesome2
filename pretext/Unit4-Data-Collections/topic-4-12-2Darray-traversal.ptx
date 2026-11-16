@@ -435,9 +435,8 @@ public class RunestoneTests extends CodeTestHelper
       href="https://www.rapidtables.com/web/color/RGB_Color.html"
       visual="https://www.rapidtables.com/web/color/RGB_Color.html">RGB Color
       Mixer</url> to experiment. Can you make black? Can you make white? Can you
-      make purple? You can learn more about pixels in the <url
-      href="pictureLabA1toA3.html" visual="pictureLabA1toA3.html">Picture Lab
-      sections A1 to A3</url>.
+      make purple? You can learn more about pixels in the Picture Lab
+      sections A1 to A3.
     </p>
 
     <p>
@@ -487,9 +486,8 @@ p.setBlue(255);  // set its blue value to 255
       photo which has a color with red, green, and blue values, and it sets all
       the blue values to 0. You can experiment with this method and write your
       own methods to modify the pixels in the challenge below and the extended
-      <url href="pictureLabA5.html#image-modification-exercises"
-      visual="pictureLabA5.html#image-modification-exercises">Picture Lab A5
-      Image Modification Exercises</url>.
+      Picture Lab A5
+      Image Modification Exercises.
     </p>
 
     <program language="java">
@@ -536,14 +534,7 @@ public void zeroBlue()
     </p>
 
     <p>
-      You can test the methods in the active code below or in this <url
-      href="https://replit.com/@BerylHoffman/Picture-Lab"
-      >Replit Swing
-      project</url> or this <url
-      href="https://replit.com/@BerylHoffman/PictureLab-with-output-file"
-      >alternative
-      Replit project</url> by teacher Jason Stark from LA (click output.jpg to
-      see the result) or you could download the project
+      You can test the methods in the active code below or you could download the project
       files from  <url
       href="https://github.com/bhoffman0/CSAwesome2/tree/main/_static/PictureLab.zip">
       Picture Lab Java code files</url>  to your own IDE.
@@ -765,10 +756,8 @@ public class RunestoneTests extends CodeTestHelper
     </project>
 
     <p>
-      Here are some more exercises from the <url
-      href="pictureLabA5.html#image-modification-exercises"
-      visual="pictureLabA5.html#image-modification-exercises">Picture Lab A5
-      Image Modification Exercises</url>:
+      Here are some more exercises from the Picture Lab A5
+      Image Modification Exercises:
     </p>
 
     <p>
@@ -793,10 +782,8 @@ public class RunestoneTests extends CodeTestHelper
     </p>
 
     <p>
-      You can continue on with the next pages of <url
-      href="pictureLabA5.html#image-modification-exercises"
-      visual="pictureLabA5.html#image-modification-exercises">Picture Lab A5
-      Image Modification Exercises</url> to mirror images and create collages
+      You can continue on with the next pages of Picture Lab A5
+      Image Modification Exercises to mirror images and create collages
       and detect edges as the first step in recognizing objects in images.
     </p>
   </subsection>

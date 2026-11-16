@@ -709,13 +709,4 @@ public static void insertionSort(int[] elements)
     </p>
   </subsection>
 
-  <subsection xml:id="search-sort-multiple-choice-exercises-1">
-    <title>Search/Sort Multiple-Choice Exercises</title>
-    <p>
-      Try the following multiple-choice exercises to practice search and sort
-      algorithms: <url href="Search-Sort-Exercises.html"
-      visual="Search-Sort-Exercises.html">Search/Sort Multiple-Choice
-      Exercises</url>.
-    </p>
-  </subsection>
 </section>

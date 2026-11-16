@@ -518,46 +518,6 @@ public class RunestoneTests extends CodeTestHelper
     
   </activity>
 
-  <p>
-    For more practice with Strings see problems at <url
-    href="http://codingbat.com/java/String-1"
-    visual="http://codingbat.com/java/String-1">http://codingbat.com/java/String-1</url>.
-  </p>
-
-  <p>
-    <ul>
-      <li>
-        <p>
-          <url href="http://codingbat.com/prob/p161056" visual="http://codingbat.com/prob/p161056">http://codingbat.com/prob/p161056</url>
-        </p>
-      </li>
-
-      <li>
-        <p>
-          <url href="http://codingbat.com/prob/p147483" visual="http://codingbat.com/prob/p147483">http://codingbat.com/prob/p147483</url>
-        </p>
-      </li>
-
-      <li>
-        <p>
-          <url href="http://codingbat.com/prob/p108853" visual="http://codingbat.com/prob/p108853">http://codingbat.com/prob/p108853</url>
-        </p>
-      </li>
-
-      <li>
-        <p>
-          <url href="http://codingbat.com/prob/p130896" visual="http://codingbat.com/prob/p130896">http://codingbat.com/prob/p130896</url>
-        </p>
-      </li>
-
-      <li>
-        <p>
-          <url href="http://codingbat.com/prob/p130781" visual="http://codingbat.com/prob/p130781">http://codingbat.com/prob/p130781</url>
-        </p>
-      </li>
-    </ul>
-  </p>
-
   <p>Here are some practice coding problems for Turtles.</p>
   <activity label="Turtle-eoc-triangle-ac">
     <statement>

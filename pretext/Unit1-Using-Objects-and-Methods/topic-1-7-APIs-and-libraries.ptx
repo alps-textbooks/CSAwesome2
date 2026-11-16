@@ -161,11 +161,7 @@ yertle.turnRight();
 
         <p>
           If the code below is too slow in your browser, you
-          can also see the <c>Turtle</c> code in action at this <url href="https://play.juicemind.com/csawesome2/TurtleAPI">JuiceMind IDE</url>, 
-          <url href="https://codehs.com/sandbox/id/turtlejavaswingcode-dSHrzr">CodeHS Sandbox link</url>, or
-          <url
-          href="https://replit.com/@BerylHoffman/Java-Swing-Turtle#Main.java">replit
-          link</url> (refresh page after forking and if it gets stuck) or <url
+          can <url
           href="https://github.com/bhoffman0/CSAwesome2/raw/main/_sources/Unit1-Using-Objects-and-Methods/TurtleJavaSwingCode.zip">
           download the files</url> to use in your own IDE.
         </p>
@@ -523,7 +519,7 @@ public class RunestoneTests extends CodeTestHelper
             should ask the habitat to show itself. Drag the needed blocks of
             statements from the left column to the right column and put them in
             the right order. There are 2 extra blocks that are not needed in a
-            correct solution. Then click on Check Me to see if you are right.
+            correct solution. Then click on Check to see if you are right.
             You will be told if any of the lines are in the wrong order or are
             the wrong blocks.
           </p>
@@ -700,7 +696,7 @@ public class RunestoneTests extends CodeTestHelper
       <statement>
         <p>
           Drag the definition from the left and drop it on the correct concept
-          on the right. Click the "Check Me" button to see if you are correct.
+          on the right. Click the "Check" button to see if you are correct.
         </p>
       </statement>
 
@@ -1017,8 +1013,7 @@ public class RunestoneTests extends CodeTestHelper
 <subsection xml:id="ap-practice-api">
     <title>AP Practice</title>
     <p>
-      Try these AP practice questions that will help to prepare you for the AP
-      Classroom progress checks.
+      Try these AP practice questions.
     </p>
 
     <activity label="AP-API1">

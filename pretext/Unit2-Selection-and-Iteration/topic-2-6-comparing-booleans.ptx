@@ -766,7 +766,7 @@ String s3 = new String("hi");
         <p>
           Try the following code to see a <c>NullPointerException</c> (if you
           don’t see the exception because of the autograding, you can copy it
-          into the pencil icon scratch area to run it without the grader). Since
+          into your own IDE to run it without the grader). Since
           <c>s</c> is <c>null</c>, trying to access <c>indexOf</c> on <c>s</c>
           throws an <c>NullPointerException</c>. Comment out the first <c>if</c>
           statement and run the program again. The second <c>if</c> statement
@@ -1544,48 +1544,4 @@ if (message.equals(note) &amp;&amp; !message.equals("memo"))
     </activity>
   </subsection>
 
-  <subsection xml:id="review-practice-for-selection">
-    <title>Review/Practice for Selection</title>
-    <p>
-      This lesson ends the section on selection. You can now do the following
-      review and practice lessons at the end of the unit and College Board
-      Progress Check part A in the AP Classroom.
-    </p>
-
-    <p>
-      <ul>
-        <li>
-          <url href="selection-summary.html" visual="selection-summary.html">Selection Summary</url>
-        </li>
-
-        <li>
-          <url href="unit2a-practice-toggle-code.html" visual="unit2a-practice-toggle-code.html">Selection Practice Toggle Code</url>
-        </li>
-
-        <li>
-          <url href="selection-practice-coding.html" visual="selection-practice-coding.html">Selection Practice Coding</url>
-        </li>
-
-        <li>
-          <url href="Exercises-selection.html" visual="Exercises-selection.html">Exercises Selection</url>
-        </li>
-
-        <li>
-          <url href="frq-game-score.html" visual="frq-game-score.html">FRQ Game Score</url>
-        </li>
-
-        <li>
-          <url href="selection-more-practice-coding.html" visual="selection-more-practice-coding.html">Selection More Practice Coding</url>
-        </li>
-
-        <li>
-          <url href="group-mod-practice.html" visual="group-mod-practice.html">Group Mod Practice</url>
-        </li>
-
-        <li>
-          <url href="magpie-chatbot-lab-1.html" visual="magpie-chatbot-lab-1.html">Magpie Lab</url>
-        </li>
-      </ul>
-    </p>
-  </subsection>
 </section>

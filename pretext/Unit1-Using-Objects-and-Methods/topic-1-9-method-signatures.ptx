@@ -625,7 +625,7 @@ public class OldMacDonaldSong
         <p>
           Run the following code to see the song Old MacDonald using the verse
           and chorus methods. You can also see this code run in the visualizer
-          by clicking on the Show Code Lens button below. Scroll down to the
+          by clicking on the CodeLens tab below. Scroll down to the
           main method, and add another verse with the animal goose and the sound
           honk by calling the verse method with the appropriate arguments. Then
           call intro again. Repeat with another animal and sound of your choice.
@@ -991,7 +991,7 @@ public class RunestoneTests extends CodeTestHelper
       <statement>
         <p>
           Drag the definition from the left and drop it on the correct concept
-          on the right. Click the "Check Me" button to see if you are correct.
+          on the right. Click the "Check" button to see if you are correct.
         </p>
       </statement>
 
@@ -1206,12 +1206,4 @@ purr()
     </activity>
   </subsection>
 
-  <subsection xml:id="progresscheck-unit1B">
-    <title>AP Classroom Progress Check Unit 1 Part B</title>
-    <p>
-      This lesson ends the section for the College Board Unit 1 part B. You can
-      now do the College Board Progress Check for Unit 1B in the AP
-      Classroom or wait to do parts B and C together at the end of Unit 1.
-    </p>
-  </subsection>
 </section>

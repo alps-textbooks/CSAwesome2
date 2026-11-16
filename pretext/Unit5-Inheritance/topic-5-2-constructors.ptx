@@ -559,14 +559,10 @@ public class RunestoneTests extends CodeTestHelper
     </project>
 
     <p>
-      For a more complex example of drawing shapes, try running this <url
-      href="https://replit.com/@BerylHoffman/Shapes"
-      visual="https://replit.com/@BerylHoffman/Shapes">replit.com Java Swing
-      code</url> (or download the <url
+      For a more complex example of drawing shapes, download the <url
       href="https://www.dropbox.com/s/2lmkd1m2sfh3xqc/ShapeExample.zip"
       visual="https://www.dropbox.com/s/2lmkd1m2sfh3xqc/ShapeExample.zip">files
-      here</url> by clicking on Download on the top right and use the files in
-      your own Java IDE). When the yellow panel comes up, click on either the
+      here</url> and use them in your own Java IDE. When the yellow panel comes up, click on either the
       Rectangle or the Oval button and then click and drag somewhere on the
       yellow panel to draw that shape. Take a look at the Rectangle.java and
       Oval.java files to see how they inherit from the Shape class in

@@ -257,12 +257,7 @@ System.out.println("The average is " + average);
     </program>
 
     <p>
-      You can try this below on the input numbers below the code or for more
-      interactive input, try it in your own IDE online with <url
-      href="https://play.juicemind.com/csawesome2/Average"
-      visual="https://play.juicemind.com/csawesome2/Average">JuiceMind</url>
-      or <url href="https://replit.com/@BerylHoffman/Average#Main.java"
-      visual="https://replit.com/@BerylHoffman/Average#Main.java">replit</url>.
+      You can try this below on the input numbers below the code.
     </p>
 
     <activity label="input-controlled-loop">

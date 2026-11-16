@@ -91,22 +91,7 @@ frame.add(button1);
 
   <p>
     Java Swing is not available in most online development environments, but 
-    you can use it in downloaded IDEs or in 
-    <url href="https://replit.com" visual="https://replit.com">replit</url> or
-    <url href="https://codehs.com" visual="https://codehs.com">codehs</url>.
-    There is no GUI designer available, but they can display Java Swing GUIs. 
-  </p>
-
-  <p>
-    Here’s a <url href="https://codehs.com/sandbox/id/javaswinghello-8PTVUI">CodeHS sandbox Java Swingexample</url> 
-    (or <url href="https://replit.com/@BerylHoffman/JavaSwingHello">replit example</url>) 
-    that sets up a <c>JFrame</c> with a
-    <c>JButton</c> and a <c>JLabel</c>. It calls a special method called
-    <c>addActionListener</c> where you can put the code to be executed when you
-    click on a button. Can you add another button to it? Remember that you will
-    need to create a <c>JButton</c> object, call <c>setBounds</c> on it, and add
-    it to the frame. Copy the <c>addActionListener</c> code and change it to
-    work for your new button to say “Good Bye” instead of “hello”.
+    you can use it in downloaded IDEs.
   </p>
 
   <p>
