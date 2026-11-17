@@ -226,7 +226,7 @@ public class RunestoneTests extends CodeTestHelper
           the left into the correct order on the right and indent them
           correctly. Even though Java doesn’t require indention it is a good
           habit to get into. You will be told if any of the blocks are in the
-          wrong order or not indented correctly when you click the “Check Me”
+          wrong order or not indented correctly when you click the “Check”
           button.
         </p>
       </statement>
@@ -575,7 +575,7 @@ while (i &lt; 10)
           The while loop should print out the numbers 1 to 8, but it has 2
           errors that cause an infinite loop and an off-by-one error. Can you
           fix the errors? If you run an infinite loop, you may need to refresh
-          the page to stop it (so make sure that you clicked Save/Run for all
+          the page to stop it (so make sure that you ran all
           the active code windows that you have changed).
         </p>
       </statement>

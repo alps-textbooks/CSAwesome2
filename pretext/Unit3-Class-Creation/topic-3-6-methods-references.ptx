@@ -47,8 +47,8 @@ class Person
       In Java, usually each class is saved in its own file with the same name as
       the class, so the Person class would be in Person.java and the Address
       class would be in Address.java. If the files are in the same folder, they
-      can be compiled together so that they can interact. In Runestone, we
-      cannot have separate files, so we put them in 1 coding area. In Runestone,
+      can be compiled together so that they can interact. In this e-book, we
+      cannot have separate files, so we put them in 1 coding area. In this e-book,
       only the class that has the main method can be public; the other classes
       can leave out the public keyword.
     </p>

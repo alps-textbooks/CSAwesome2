@@ -1225,9 +1225,8 @@ public class RunestoneTests extends CodeTestHelper
       <ol marker="1">
         <li>
           <p>
-            Copy your class from <url
-            href="topic-3-5-methods.html#groupwork-design-a-class-for-your-community">
-            lesson 3.5</url> below.
+            Copy your class from
+            lesson 3.5 below.
           </p>
         </li>
 
@@ -1254,9 +1253,8 @@ public class RunestoneTests extends CodeTestHelper
     <project label="community-challenge-6-1">
       <statement>
         <p>
-          Community Challenge: Copy your class from <url
-          href="topic-3-5-methods.html#groupwork-design-a-class-for-your-community">lesson
-          3.5</url> below. Create an array of 3 objects of your class,
+          Community Challenge: Copy your class from lesson
+          3.5 below. Create an array of 3 objects of your class,
           initialize them to new objects and call their print methods.
         </p>
       </statement>

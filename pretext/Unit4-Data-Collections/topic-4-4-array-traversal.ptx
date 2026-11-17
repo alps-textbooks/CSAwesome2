@@ -1443,8 +1443,8 @@ for (int num : numbers)
       traverse an array of objects. Here is an example of a Student class and a
       StudentArray class that searches for a student with a specific name. In
       Java, when you are working with multiple classes on your own computer,
-      each class is usually in its own file that matches the class name. On
-      Runestone, when you are working with multiple classes, only the class that
+      each class is usually in its own file that matches the class name. In
+      this e-book, when you are working with multiple classes, only the class that
       has the main method should be public, and the other classes should start
       with <c>class</c> instead of <c>public class</c>.
     </p>
@@ -1645,13 +1645,7 @@ class Student
 
     <p>
       This challenge includes a dictionary file of 10,000 English words which is
-      read into the array dictionary for you. You could use this <url
-      href="https://play.juicemind.com/csawesome2/challenge-spellchecker"
-      visual="https://play.juicemind.com/csawesome2/challenge-spellchecker">JuiceMind IDE</url> or this <url
-      href="https://replit.com/@BerylHoffman/SpellChecker1"
-      visual="https://replit.com/@BerylHoffman/SpellChecker1">replit</url> code
-      instead that has an even bigger dictionary of English words and lets you
-      do input with your spell checker. We will learn how to read in files using
+      read into the array dictionary for you. We will learn how to read in files using
       Java later on in this unit.
     </p>
 
@@ -1864,21 +1858,18 @@ public class RunestoneTests extends CodeTestHelper
     <title>Design an Array of Objects for your Community</title>
     <p>
       In the last unit, you came up with a class of your own choice relevant to
-      you or your community. In the <url
-      href="topic-4-3-array-basics.html#groupwork-design-an-array-of-objects-for-your-community">
-      last lesson</url>, you created an array to hold objects of your class. Copy
-      your array of objects code from the <url
-      href="topic-4-3-array-basics.html#groupwork-design-an-array-of-objects-for-your-community">
-      last lesson</url>. In this challenge, add a loop to traverse your array to
+      you or your community. In the
+      last lesson, you created an array to hold objects of your class. Copy
+      your array of objects code from the
+      last lesson. In this challenge, add a loop to traverse your array to
       print out each object.
     </p>
 
     <project label="community-challenge-array-loop">
       <statement>
         <p>
-          Copy your class from the <url
-          href="topic-4-3-array-basics.html#groupwork-design-an-array-of-objects-for-your-community">
-          last lesson</url> below. It should create an array of 3 objects of your
+          Copy your class from the
+          last lesson below. It should create an array of 3 objects of your
           class and initialize them to new objects. Instead of calling their
           print() methods individually, write a <c>for</c> (indexed or enhanced)
           loop that traverses your array to print out each object using the

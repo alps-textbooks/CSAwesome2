@@ -424,8 +424,7 @@ for (int i = 3; i &lt;= 9; i++)
           blocks from the left into the correct order on the right and indent
           them correctly. Even though Java doesn’t require indention it is a
           good habit to get into. You will be told if any of the blocks are in
-          the wrong order or not indented correctly when you click the “Check
-          Me” button.
+          the wrong order or not indented correctly when you click the “Check” button.
         </p>
       </statement>
 

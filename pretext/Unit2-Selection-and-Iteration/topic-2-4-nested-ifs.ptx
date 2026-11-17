@@ -846,12 +846,7 @@ else  // belongs to first if
 
     <p>
       In a game like Adventure, else if statements can be used to respond to
-      commands from the user like n, s, e, w. Try the program below (or in an
-      interactive input IDE like <url
-      href="https://play.juicemind.com/csawesome2/Adventure"
-      visual="https://play.juicemind.com/csawesome2/Adventure">JuiceMind</url>
-      or <url href="https://replit.com/@BerylHoffman/Adventure#Main.java"
-      visual="https://replit.com/@BerylHoffman/Adventure#Main.java">replit</url>).
+      commands from the user like n, s, e, w. Try the program below.
       This current adventure game asks the user whether they want to move n, s,
       e, or w, but right now only the north direction is coded. It leads to a
       new method called <c>forest()</c>.

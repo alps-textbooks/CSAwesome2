@@ -322,7 +322,7 @@ public Person()
           with 0 in the denominator is not valid. The constructor with
           parameters should copy those parameters into the instance variables.
           What will the code print out? Try tracing through it. View it in the
-          Java visualizer by clicking on the Show CodeLens button below.
+          Java visualizer by clicking on the CodeLens tab below.
         </p>
       </statement>
 
@@ -667,10 +667,8 @@ public class Student
       <ol marker="1">
         <li>
           <p>
-            Consult your completed worksheet or your code in <url
-            href="topic-3-3-anatomy-of-class.html#groupwork-design-a-class-for-your-community"
-            visual="topic-3-3-anatomy-of-class.html#groupwork-design-a-class-for-your-community">lesson
-            3.3 Community Challenge</url> for the class name and its 3 instance
+            Consult your completed worksheet or your code in lesson
+            3.3 Community Challenge for the class name and its 3 instance
             variables that you created. Copy them into the active code exercise
             below.
           </p>
@@ -702,10 +700,8 @@ public class Student
     <project label="community-challenge2">
       <statement>
         <p>
-          Copy your class with its 3 instance variables from <url
-          href="topic-3-3-anatomy-of-class.html#groupwork-design-a-class-for-your-community"
-          visual="topic-3-3-anatomy-of-class.html#groupwork-design-a-class-for-your-community">lesson
-          3.3 Community Challenge</url>. Add a constructor with 3 parameters to
+          Copy your class with its 3 instance variables from lesson
+          3.3 Community Challenge. Add a constructor with 3 parameters to
           set all of the instance variables to the given parameters. Write a
           print() method that uses System.out.println to print out all the
           instance variables. Write a main method that constructs at least 2
@@ -1240,12 +1236,4 @@ public Cat(String c, boolean h)
     </activity>
   </subsection>
 
-  <subsection xml:id="progresscheck-u3-partA">
-    <title>AP Classroom Progress Check Unit 3 Part A</title>
-    <p>
-      This lesson ends the section for the College Board Unit 3 part A. You can
-      now do the College Board Progress Check for Unit 3 Part A in the AP
-      Classroom.
-    </p>
-  </subsection>
 </section>

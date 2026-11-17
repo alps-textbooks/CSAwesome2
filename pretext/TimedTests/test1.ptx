@@ -7,17 +7,6 @@
     exam. Please answer each to the best of your ability.
   </p>
 
-  <p>
-    Click the Start button when you are ready to begin the exam, but only then
-    as you can only take the exam once. Click on the Next button to go to the
-    next question. Click on the Previous button to go to the previous question.
-    Use the number buttons to jump to a particular question. Click the Pause
-    button to pause the exam (you will not be able to see the questions when the
-    exam is paused). Click on the Finish button after you have answered all the
-    questions. The number correct, number wrong, and number skipped will be
-    displayed.
-  </p>
-
   <exercises label="test1" time-limit="45" timer="yes">
     <exercise label="pe1_1">
       <statement>

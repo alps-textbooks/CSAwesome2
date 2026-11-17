@@ -186,7 +186,7 @@
     <statement>
       <p>
         Run the code below to see what the <c>++</c> and shorcut operators do.
-        Click on the Show Code Lens button to trace through the code and the
+        Click on the CodeLens tab to trace through the code and the
         variable values change in the visualizer. Create more compound
         assignment statements with shortcut operators as described below and
         work with a partner to guess what they would print out before running
@@ -516,31 +516,4 @@ z--;
     </p>
   </subsection>
 
-  <subsection xml:id="review-practice-for-unit-1A">
-    <title>Review/Practice for Unit 1 Part A</title>
-    <p>
-      You can now do the following review and practice lessons at the end of the
-      unit and College Board Progress Check A and the Receipt lab in the AP Classroom.
-    </p>
-
-    <p>
-      <ul>
-        <li>
-          <url href="unit1a-summary.html" visual="unit1a-summary.html">Unit 1a Summary</url>
-        </li>
-
-        <li>
-          <url href="unit1a-practice-toggle-code.html" visual="unit1a-practice-toggle-code.html">Unit 1a Practice Toggle Coding</url>
-        </li>
-
-        <li>
-          <url href="unit1a-practice-coding.html" visual="unit1a-practice-coding.html">Unit 1a Practice Coding</url>
-        </li>
-
-        <li>
-          <url href="Exercises-basics.html" visual="Exercises-basics.html">Unit 1a Multiple-Choice Exercises</url>
-        </li>
-      </ul>
-    </p>
-  </subsection>
 </section>

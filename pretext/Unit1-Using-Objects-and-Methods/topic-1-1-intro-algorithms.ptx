@@ -142,7 +142,7 @@ public class RunestoneTests extends CodeTestHelper
       <term>Integrated Development Environment (IDE)</term> is often used to
       write programs because it provides tools for a programmer to write,
       compile, and run code. For this course, you can use the e-book Active Code
-      exercises or the Scratch button above as your IDE to run your code. Or you
+      exercises as your IDE to run your code. Or you
       can try other IDEs mentioned in the last unit. In other IDEs, you must
       name the file the same name as the class name with “.java” as the
       extension. All code (programs) in Java must be defined inside a class in a
@@ -459,11 +459,9 @@ public class RunestoneTests extends CodeTestHelper
         <p>
           The following has all the correct code to print out “Hi my friend!”
           when the code is run, but the code is mixed up. Drag the blocks from
-          left to right and put them in the correct order. Click on the “Check
-          Me” button to check your solution. You will be told if any of the
+          left to right and put them in the correct order. Click on the “Check” button to check your solution. You will be told if any of the
           blocks are in the wrong order or if you need to remove one or more
-          blocks. After three incorrect attempts you will be able to use the
-          Help Me button to make the problem easier.
+          blocks.
         </p>
       </statement>
 
@@ -495,7 +493,7 @@ public class RunestoneTests extends CodeTestHelper
           The following has all the correct code to print out “Hi there!” when
           the code is run, but the code is mixed up and contains some extra
           blocks with errors. Drag the needed blocks from left to right and put
-          them in the correct order. Click on the “Check Me” button to check
+          them in the correct order. Click on the “Check” button to check
           your solution.
         </p>
       </statement>

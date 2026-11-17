@@ -70,7 +70,7 @@
       <statement>
         <p>
           Drag the definition from the left and drop it on the correct symbols
-          on the right. Click the "Check Me" button to see if you are correct.
+          on the right. Click the "Check" button to see if you are correct.
         </p>
       </statement>
 
@@ -530,7 +530,7 @@ public class RunestoneTests extends CodeTestHelper
     <p>Group Exercise</p>
     <p>
       Try the <url
-      href="https://www.agilesparks.com/blog/wake-up-in-the-morning-game/">Wake
+      href="https://agilesparks.com/wake-up-in-the-morning-game/">Wake
       Up In the Morning Game</url> in groups to practice the iterative and
       incremental agile development process.
     </p>

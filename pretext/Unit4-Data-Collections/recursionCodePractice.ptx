@@ -51,9 +51,4 @@ public class RunestoneTests extends CodeTestHelper
     
   </activity>
 
-  <p>
-    If you would like to try writing recursive methods check out the recursion
-    problems at CodingBat at <url href="http://codingbat.com/java/Recursion-1"
-    visual="http://codingbat.com/java/Recursion-1">http://codingbat.com/java/Recursion-1</url>.
-  </p>
 </section>

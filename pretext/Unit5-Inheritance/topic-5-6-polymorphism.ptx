@@ -592,10 +592,8 @@ public class Dictionary extends Book
     <p>
       In the last lesson, you created a class called <c>DiscountedItem</c> as
       part of a Shopping Cart application. Please copy your solutions from the
-      <url
-      href="https://runestone.academy/ns/books/published/csawesome/Unit9-Inheritance/topic-9-5-hierarchies.html#groupwork-programming-challenge-shopping-cart"
-      visual="https://runestone.academy/ns/books/published/csawesome/Unit9-Inheritance/topic-9-5-hierarchies.html#groupwork-programming-challenge-shopping-cart">last
-      lesson</url> into the Active Code window below (or in another IDE)
+      last
+      lesson into the Active Code window below (or in another IDE)
       before completing this challenge.
     </p>
 
